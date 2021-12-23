@@ -3,12 +3,11 @@ body {
 }
 
 .cabecalho {
-    width: 90%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em;
-    border-bottom: 0.2em solid white;
+    padding: 0.2em;
     position: fixed;
     margin-left: 3.5%; 
 }
@@ -20,7 +19,7 @@ img {
 #logo {
     margin-left: 0.5em;
     font-family: fantasy;
-    font-size: 2em;
+    font-size: 1.6em;
     color: whitesmoke;
     text-shadow: black 0.1em 0.1em 0.2em;
 }
@@ -29,15 +28,13 @@ img {
 .barraNavegar li {
     display: inline-block;
     background: goldenrod;
-    border: 0.15em solid white;
-    border-radius: 1em;
+    border: 0em solid white;
+    border-radius: 0.5em;
     text-decoration: none;   
-    width: 10em; 
     height: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding: 0.2em 0.8em;
     text-align: center;
-    margin: 0 10px;
+    margin: 0 0.2em;
     opacity: 80%;
 }
 
