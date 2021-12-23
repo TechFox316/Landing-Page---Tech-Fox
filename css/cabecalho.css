@@ -14,15 +14,15 @@ body {
 }
 
 img {
-    width: 30%;
+    width: 10.5%;
 }
 
 #logo {
     margin-left: 0.5em;
     font-family: fantasy;
-    font-size: 2em;
+    font-size: 1.6em;
     color: whitesmoke;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: black 0.1em 0.1em 0.2em; 
 }
 
 
@@ -37,7 +37,7 @@ img {
     padding-top: 2.5%;
     padding-bottom: 2.5%;
     text-align: center;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 .barraNavegar a {

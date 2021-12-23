@@ -13,10 +13,13 @@ footer {
 }
 
 .titulo-equipe {
-    font-size: 3em;;
+    font-size: 3em;
     padding: 0.7em 0 1em;
     color: #FFFFFF;
-    font-weight: bold;
+    font-weight: 800;
+    letter-spacing: 0.05em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 .equipe {

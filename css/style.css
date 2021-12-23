@@ -64,6 +64,7 @@ img {
     height: 100vh;
     color:white;
     text-align: center;
+    
 }
 
 #oQueE h1 {
@@ -75,9 +76,12 @@ img {
 }
 
 #oQueE p {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 1.5em;
-    width: 70%;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    
     margin:2% auto 0% auto;
 }
 
