@@ -1,5 +1,5 @@
 #oQueE {
-    background-color: #B400F5;
+    background: #222222;
     width: 100%;
     height: 100vh;
     color:white;
@@ -12,6 +12,8 @@
     font-weight: bold;
     padding-top: 15%;
     padding-bottom: 2%;
+    opacity: 100%;
+    position: relative;
 }
 
 #oQueE p {
@@ -19,8 +21,19 @@
     font-size: 1.5em;
     width: 70%;
     margin:2% auto 0% auto;
+    opacity: 100%;
+    position: relative;
 }
 
 .italico {
     font-style: italic;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    object-fit: cover;
+    opacity: 70%;
 }

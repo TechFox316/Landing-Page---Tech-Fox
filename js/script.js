@@ -15,6 +15,8 @@ var tanque = document.querySelector("#classe-tanque");
 
 var escolha = document.querySelector(".inputs")
 
+escolha.addEventListener("click", textoPagina)
+
 function textoPagina() {
     if (assasino.checked) {
         texto.innerHTML = "hello, wordl!";
@@ -31,8 +33,6 @@ function textoPagina() {
     }
 }
 
-escolha.addEventListener("click", textoPagina())
-
 var classes = [assasino, mago, lutador, atirador, suporte, tanque];
 
 var cont = 0;
@@ -45,9 +45,7 @@ function troca() {
         cont = 0
     }
 }
+troca();
 setInterval(() => {
     troca();
 }, 5000);
-
-
-
