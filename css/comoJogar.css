@@ -1,0 +1,58 @@
+#comoJogar {
+    background-color: #111111;
+    width: 100%;
+    height: 100%;
+    color:white;
+    padding: 3.5em 0;
+}
+
+#comoJogar div {
+    width: 40%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 2em 0 2em;
+}
+
+#comoJogar h2 {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#comoJogar p {
+    font-size: 1.3em;
+    padding: 1em 0 0 0;
+    line-height: 2em;
+    
+}
+
+#comoJogar img {
+    width: 50%;
+}
+
+/*Habilidades de cada classe*/
+.habilidades {
+    background: orange;
+}
+
+.habilidades-titulo {
+    text-align: center;
+    font-size: 3em;
+    padding: 0.5em;
+    font-weight: bold;
+}
+
+.inputs  {
+    text-align: center;
+}
+
+.inputs input {
+    transform: scale(1.5);
+    margin: 0 1em 2em 1em;
+}
+
+.texto {
+    text-align: center;
+    font-size: 1.3em;
+    padding: 1em 1em;
+    line-height: 1.5em;
+}
