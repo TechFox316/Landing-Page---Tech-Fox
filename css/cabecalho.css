@@ -10,11 +10,11 @@ body {
     padding: 1em;
     border-bottom: 0.2em solid white;
     position: fixed;
-    margin-left: 3.5%;
+    margin-left: 3.5%; 
 }
 
 img {
-    width: 30%;
+    width: 15%;
 }
 
 #logo {
@@ -28,16 +28,17 @@ img {
 
 .barraNavegar li {
     display: inline-block;
-    background: rgba(255, 81, 0, 0.466);
+    background: goldenrod;
     border: 0.15em solid white;
     border-radius: 1em;
     text-decoration: none;   
     width: 10em; 
     height: 100%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
     text-align: center;
     margin: 0 10px;
+    opacity: 80%;
 }
 
 .barraNavegar a {
@@ -46,7 +47,6 @@ img {
     letter-spacing: 0.09em;
     text-decoration: none;
     color: whitesmoke;
-    
 }
 
 .barraNavegar a:hover {

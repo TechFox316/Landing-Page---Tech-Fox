@@ -37,3 +37,7 @@ video {
     object-fit: cover;
     opacity: 70%;
 }
+
+.sinopse {
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
