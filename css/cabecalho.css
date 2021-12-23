@@ -3,12 +3,11 @@ body {
 }
 
 .cabecalho {
-    width: 90%;
+    width: 95%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em;
-    border-bottom: 0.2em solid white;
+    padding: 0.2em;
     position: fixed;
     margin-left: 3.5%;
 }
@@ -28,16 +27,15 @@ img {
 
 .barraNavegar li {
     display: inline-block;
-    background: rgba(255, 81, 0, 0.466);
-    border: 0.15em solid white;
-    border-radius: 1em;
+    background: goldenrod;
+    border: 0em solid white;
+    border-radius: 0.5em;
     text-decoration: none;   
-    width: 10em; 
     height: 100%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
+    padding: 0.2em 0.8em;
     text-align: center;
-    margin: 0 5px;
+    margin: 0.2em;
+    opacity: 95%;
 }
 
 .barraNavegar a {
