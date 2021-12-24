@@ -20,7 +20,6 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     text-transform: uppercase;
-
 }
 
 #comoJogar p {
@@ -30,8 +29,6 @@
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     font-weight: 500;
     letter-spacing: 0.04em;
-
-    
 }
 
 #comoJogar img {
@@ -39,8 +36,9 @@
 }
 
 /*Habilidades de cada classe*/
-.habilidades {
-    background: orange;
+#habilidades {
+    background: #000000;
+    color: #FFFFFF;
 }
 
 .habilidades-titulo {
@@ -52,7 +50,6 @@
     font-weight: 800;
     font-style: italic;
     text-transform: uppercase;
-
 }
 
 .inputs  {
@@ -66,7 +63,10 @@
 
 .texto {
     text-align: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding: 1em 1em;
-    line-height: 1.5em;
+    line-height: 2em;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
 }

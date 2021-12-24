@@ -1,5 +1,4 @@
 #oQueE {
-    background-color: #B400F5;
     width: 100%;
     height: 100vh;
     color:white;
@@ -18,21 +17,38 @@
     padding-top: 15%;
     padding-bottom: 2%;
     text-shadow: 0.1em 0.1em 0.2em black;
+    opacity: 100%;
+    position: relative;
 }
 
 #oQueE p {
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
-    text-align: center;
+    font-size: 1.15em;
+    width: 50%;
+    margin:2% auto 0% auto;
+    opacity: 100%;
     font-weight: 800;
-    font-size: 17px;
-    max-width: 660px;
-    letter-spacing: 0.08em;
+    letter-spacing: 0.03em;
     text-size-adjust: 100%;
     color: #FFFFFF;
-    margin: 20px auto 0px;
     line-height: 1.6;
+    position: relative;
 }
 
 .italico {
     font-style: italic;
+}
+
+video {
+    width: 100%;
+    height: 100.5vh;
+    position: absolute;
+    top: 51.6em;
+    right: 0px;
+    object-fit: cover;
+    opacity: 80%;
+}
+
+.sinopse {
+    text-shadow: black 0.1em 0.1em 0.2em;
 }
