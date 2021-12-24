@@ -16,16 +16,17 @@
 </head>
 <body><!---->
     <header>
-        <div class="cabecalho">
+        <div id="cabecalho">
             <div style="display: flex; align-items: center;">
                 <img src="img/logo.jpg" alt="logo">
-                <h1 id="logo">League of Legends</h1>
+                <h1 id="logo"><img class="logoLOW" src="img/LOW.png"></h1>
             </div>
             <nav class="barraNavegar">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#oQueE">O que é?</a></li>
                     <li><a href="#comoJogar">Como jogar</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#download">Download</a></li>
                 </ul>
             </nav>
@@ -35,19 +36,20 @@
 
     <main>   
         <section id="home">
-            <img class="logoLOW" src="img/LOW.png">
+            <img src="img/planodefundo.jpg" alt="imagem de fundo">
         </section> 
         <section id="oQueE">
-
-            <video autoplay="true" loop>
-                <source src="video/video-fundo.mp4" type="video/mp4">
-            </video>
+            <div>
+                 <video autoplay="true" loop>
+                    <source src="video/video-fundo.mp4">
+                </video>
+            </div>
+               
             <div class="sinopse">
                 <h1>O que é League of Legends?</h1>
             <p>League of Legends é um jogo de estratégia MOBA em que duas equipes de cinco poderosos Campeõe se enfrentam para destruir a base uma da outra.</p>
             <p class="italico">Escolha entre  +100 Campeões para realizar jogadas épicas, assegurar abates e destruir torres conforme você luta até a vitória.</p>
             </div>
-           
         </section>
         <section id="comoJogar">
             <div>
@@ -59,7 +61,7 @@
             <img src="img/como-jogar.jpg" alt="imagem de como jogar">
             <img src="img/modos-de-jogo.png" alt="imagem dos modos de jogo">
             <div>
-                <h2 style="padding: 2em 0 0 0;">Modos de Jogo</h2>
+                <h2 style="padding: 2em 0 0 0;">Rotas</h2>
                 <p>Existem cinco posições que integram a composição de equipe recomendada para o jogo. Cada rota combina melhor com certos 
                     tipos de Campeões e funções, então experimente todas elas ou foque na rota que mais lhe agradar.
                 </p>
@@ -71,7 +73,7 @@
             </div>
             <img src="img/skins.jpg" alt="Imagens de skins">
         </section>
-        <section class="habilidades">
+        <section id="habilidades">
             <h2 class="habilidades-titulo">Habilidades</h2>
            
             <img src="" alt="">
@@ -100,11 +102,15 @@
                 conteudo explicativo
             </p>
         </section>  
-
+        <section id="download">
+                <h2 class="download-titulo">Download</h2>
+                <input type="button" value="Download" class="botao-download">
+        </section>
     </main>
     <footer>
-        <div class="integrantes">
-            <h2 class="titulo-equipe">Nossa Equipe</h2>
+
+        <div id="tech-fox">
+            <h2 class="titulo-equipe">Tech Fox</h2>
         
             <img src="img/Gabriele.jpeg" alt="Imagem da Gabriele" class="equipe">
             <img src="img/Diego.jpeg" alt="Imagem do Diego" class="equipe">
@@ -117,9 +123,6 @@
             <img src="img/Vitória.jpeg" alt="Imagem da Vitória" class="equipe">
         </div>
         
-        <div>
-            <img src="img/fundo-footer.jpg" alt="fundo antes do copyright" class="foooter-fundo">
-        </div>
         <div class="classificacao-jogo">
             <img src="img/idade-permitida.png" alt="classifição etária do jogo">
             <p class="copyright">&copy; Copyright Tech Fox 2021</p>
