@@ -1,0 +1,44 @@
+/*
+html {
+    font-size: 62.5%;
+}
+*/
+@media (max-width: 2560px) {
+    html {
+        font-size: 32.45px;
+    }
+}
+
+@media (max-width: 1440px) {
+    html {
+        font-size: 18.256px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    html {
+        font-size: 12.97px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 9.74px;
+    }
+
+    .inputs input {
+        transform: scale(1.2);
+        top: 0.4vw;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 5.7px;
+    }
+    .inputs input {
+        transform: scale(0.9);
+        top: 0.5vw;
+    }
+}

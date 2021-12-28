@@ -8,42 +8,43 @@ footer {
     background-image: url(/img/fundo-footer.jpg);
     background-size: 100%;
     width: 100%;
-    height: 100vh;
-    padding: 0 0 3em 0;
+    height: 50vw;
+    padding: 0 0 3rem 0;
     text-align: center;
 }
 
 .titulo-equipe {
-    font-size: 3em;
-    padding: 0.7em 0 1em;
+    font-size: 3rem;
+    padding: 3vw 0 2vw;
     color: #FFFFFF;
     font-weight: 800;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .equipe {
     width: 12%;
-    height: 12.5em;
-    margin: 1em;
+    height: 17vw;
+    margin: 1rem;
     display: inline-block;
 }
 
 .classificacao-jogo {
     text-align: center;
-    padding: 3em 0 1em 0;
+    padding: 3rem 0 1rem 0;
 }
+
 .classificacao-jogo img {
     text-align: justify;
     display: inline-block;
-    padding: 3em 0 1em 0;
+    padding: 3vw 0 1vw 0;
 }
 .copyright {
     text-align: center;
-    font-size: 1.3em;
-    padding: 2em 0 1em;
+    font-size: 1.3rem;
+    padding: 2rem 0 1rem;
     color: #FFFFFF;
     display: inline-block;
     vertical-align: top;
-    margin: 1.3em 0 0 1em;
+    margin: 1.3rem 0 0 1rem;
 }

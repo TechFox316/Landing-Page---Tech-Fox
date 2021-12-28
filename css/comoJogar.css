@@ -3,32 +3,32 @@
     width: 100%;
     height: 100%;
     color:white;
-    padding: 3.5em 0;
+    padding: 3.5vw 0;
 }
 
 #comoJogar div {
     width: 40%;
     display: inline-block;
     vertical-align: top;
-    margin: 0 2em 0 2em;
+    margin: 0 2rem 0 2rem;
 }
 
 #comoJogar h2 {
-    font-size: 3em;
+    font-size: 3rem;
     font-weight: 800;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.05rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     text-transform: uppercase;
 }
 
 #comoJogar p {
-    font-size: 1.2em;
+    font-size: 1.2rem;
     padding: 1em 0 0 0;
-    line-height: 2em;
+    line-height: 2rem;
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     font-weight: 500;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04rem;
 }
 
 #comoJogar img {
@@ -43,9 +43,9 @@
 
 .habilidades-titulo {
     text-align: center;
-    font-size: 3em;
-    padding: 0.5em;
-    letter-spacing: 0.05em;
+    font-size: 3rem;
+    padding: 2rem;
+    letter-spacing: 0.05rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
     font-style: italic;
@@ -58,15 +58,17 @@
 
 .inputs input {
     transform: scale(1.5);
-    margin: 0 1em 2em 1em;
+    margin: 0 1rem 0 1rem;
+    position: relative;
+    top: 0.3vw;
 }
 
 .texto {
     text-align: center;
-    font-size: 1.2em;
-    padding: 1em 1em;
-    line-height: 2em;
+    font-size: 1.2rem;
+    padding: 1em 1rem;
+    line-height: 2rem;
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     font-weight: 500;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.04rem;
 }

@@ -1,5 +1,7 @@
 var texto = document.querySelector(".texto")
 
+var video = document.querySelector("#video-classe");
+
 var assasino = document.querySelector("#classe-assasino");
 
 var mago = document.querySelector("#classe-mago");
@@ -20,16 +22,22 @@ escolha.addEventListener("click", textoPagina)
 function textoPagina() {
     if (assasino.checked) {
         texto.innerHTML = "hello, wordl!";
+        video.setAttribute("src", "video/assassino.mp4")
     } else if (mago.checked) {
         texto.innerHTML = "mago";
+        video.src = "video/mago.mp4";
     }else if (lutador.checked) {
         texto.innerHTML = "lutador";
+        video.src = "video/lutador.mp4";
     }else if (atirador.checked) {
         texto.innerHTML = "atirador";
+        video.src = "video/atirador.mp4";
     }else if (suporte.checked) {
         texto.innerHTML = "suporte";
+        video.src = "video/suporte.mp4";
     }else if (tanque.checked) {
         texto.innerHTML = "tanque";
+        video.src = "video/caçador.mp4";
     }
 }
 
@@ -49,3 +57,5 @@ troca();
 setInterval(() => {
     troca();
 }, 5000);
+
+

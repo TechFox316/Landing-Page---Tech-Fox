@@ -2,7 +2,6 @@ body {
     width: 100%; 
 }
 
-
 #cabecalho {
     background: #111111;
     opacity: 95%;
@@ -10,7 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0em 3em;
+    padding: 0em 3rem;
     position: fixed;
     z-index: 1000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -21,31 +20,29 @@ img {
 }
 
 #logo {
-    margin-left: 0.5em;
-    font-family: fantasy;
-    font-size: 1.6em;
-    color: whitesmoke;
-    text-shadow: black 0.1em 0.1em 0.2em; 
+    margin-left: 1rem;
+    font-size: 1.6rem;
+    
 }
 
 
 .barraNavegar li {
-    display: inline-block;
-    text-decoration: none;   
+    display: inline;
+    text-decoration: none;
     height: 100%;
-    margin: 0 0.5em;
-    text-align: center;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    margin: 0 1.5vw 0 0;
+    text-shadow: black 0.15vw 0.15vw 0.25vw;
     position: relative;
-    right: 5em;
+    right: 5vw;
 }
 
 .barraNavegar a {
     font-family:fantasy;
-    font-size: 1.2em;
-    letter-spacing: 0.09em;
+    font-size: 1.8vw;
+    letter-spacing: 0.12vw;
     text-decoration: none;
     color: whitesmoke;
+    display: inline-block;
 }
 
 .barraNavegar a:hover {
