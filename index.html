@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="css/comoJogar.css">
     <link rel="stylesheet" type="text/css" href="css/download.css">
     <link rel="stylesheet" type="text/css" href="css/rodape.css">
+    <link rel="stylesheet" type="text/css" href="css/modosJogo.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="img/logo.jpg" type="image/x-icon"/>
     <title>Tech Fox</title>
@@ -24,7 +25,7 @@
             </div>
             <nav class="barraNavegar">
                 <ul>
-                    <li><a href="#home">Home</a></li>
+                    
                     <li><a href="#oQueE">O que é?</a></li>
                     <li><a href="#comoJogar">Como jogar</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
@@ -39,8 +40,8 @@
         </section> 
         <section id="oQueE">
             <div>
-                 <video autoplay="true" loop>
-                    <source src="video/video-fundo.mp4">
+                 <video autoplay="true" loop muted="muted" class="video">
+                    <source src="video/video-fundo.mp4" type="video/mp4">
                 </video>
             </div>
             <div class="sinopse">
@@ -58,11 +59,30 @@
             </div>
             <img src="img/como-jogar.jpg" alt="imagem de como jogar">
             <img src="img/modos-de-jogo.png" alt="imagem dos modos de jogo">
-            <div>
-                <h2 style="padding: 2em 0 0 0;">Rotas</h2>
-                <p>Existem cinco posições que integram a composição de equipe recomendada para o jogo. Cada rota combina melhor com certos 
+            <div id="rotas">
+                <h2 class="rotas-titulo" style="padding: 2em 0 0 0;">Rotas</h2>
+                <p class="rotas-texto">Existem cinco posições que integram a composição de equipe recomendada para o jogo. Cada rota combina melhor com certos 
                     tipos de Campeões e funções, então experimente todas elas ou foque na rota que mais lhe agradar.
                 </p>
+                <div id="rotas-input">
+                    <label for="rota-principal"><input class="rotas-troca" type="radio" name="rotas" value="principal"
+                    id="rota-principal" checked></label>
+
+                    <label for="rota-superior"><input class="rotas-troca" type="radio" name="rotas" value="superior"
+                    id="rota-superior"></label>
+                    
+                    <label for="rota-selva"><input class="rotas-troca" type="radio" name="rotas" value="selva"
+                    id="rota-selva"></label>
+                    
+                    <label for="rota-meio"><input class="rotas-troca" type="radio" name="rotas" value="meio"
+                    id="rota-meio"></label>
+
+                    <label for="rota-inferior "><input class="rotas-troca" type="radio" name="rotas" value="inferior "
+                    id="rota-inferior"></label>
+
+                    <label for="rota-suporte"><input class="rotas-troca" type="radio" name="rotas" value="suporte"
+                    id="rota-suporte"></label>
+                </div>
             </div>
             <div id="skins-text">
                 <h2 style="padding: 1em 0 0 0;">Skins</h2>
@@ -74,7 +94,7 @@
         <section id="habilidades">
             <h2 class="habilidades-titulo">Habilidades</h2>
            
-            <video autoplay="true" loop src="video/assassino.mp4" id="video-classe"></video>
+            <video autoplay="true" loop src="video/assassino.mp4" muted="muted" id="video-classe" class="video-habilidades"></video>
             
             <div class="inputs">
                 <label for="classe-assasino"><input type="radio" name="classes" value="assassino"
@@ -100,6 +120,19 @@
                 conteudo explicativo
             </p>
         </section>  
+        <section id="modos-jogo">
+            <h2 class="titulo-modos">Modos de Jogo</h2>
+            
+            <img src="img/summoners-rift.jpeg" alt="summoners rift" class="imagens-modos">
+            
+            <h3  class="titulo-secundário" >SUMMONERS RIFT</h3>
+            <p class="texto-modos">O MODO DE JOGO MAIS JOGADO - sua rota, mergulhe em épicos confrontos de equipe 5v5 e destrua o Nexus inimigo antes que destruam o seu</p>
+
+            <button class="button-modos" id="left">🠔</button> 
+            <button class="button-modos" id="right">🠖</button>
+    
+           
+        </section>
         <section id="download">
                 <h2 class="download-titulo">Download</h2>
                 <input type="button" value="Download" class="botao-download">
@@ -109,22 +142,29 @@
         <div id="tech-fox">
             <h2 class="titulo-equipe">Tech Fox</h2>
         
-            <img src="img/Gabriele.jpeg" alt="Imagem da Gabriele" class="equipe">
-            <img src="img/Diego.jpeg" alt="Imagem do Diego" class="equipe">
-            <img src="img/Gabriel S..jpeg" alt="Imagem do Gabriel S." class="equipe">
-            <img src="img/Wendel.jpeg" alt="Imagem do Wendel" class="equipe">
-            <img src="img/Giovanna.jpeg" alt="Imagem da Giovana" class="equipe">
-            <img src="img/Gabriel V..jpeg" alt="Imagem do Gabriel V." class="equipe">
-            <img src="img/Luiza.jpeg" alt="Imagem da Luiza" class="equipe">
-            <img src="img/Anelmar.jpeg" alt="Imagem do Anelmar" class="equipe">
-            <img src="img/Vitória.jpeg" alt="Imagem da Vitória" class="equipe">
+            <img src="img/Anelmar.png" alt="Imagem do Anelmar" class="equipe">
+            <img src="img/Augusto.png" alt="Imagem do Augusto" class="equipe">
+            <img src="img/Diego.png" alt="Imagem do Diego" class="equipe">
+            <img src="img/Gabriel-S.png" alt="Imagem do Gabriel S." class="equipe">
+            <img src="img/Gabriel-Vanz.png" alt="Imagem do Gabriel Vanz" class="equipe">
+            <img src="img/Gabriele.png" alt="Imagem da Gabriele" class="equipe">
+            <img src="img/Giovanna.png" alt="Imagem da Giovana" class="equipe">
+            <img src="img/Luiza.png" alt="Imagem da Luiza" class="equipe">
+            <img src="img/Marllon.png" alt="Imagem do Marllon" class="equipe">
+            <img src="img/Stéfany.png" alt="Imagem da Stéfany" class="equipe">
+            <img src="img/Tiago.png" alt="Imagem do Tiago" class="equipe">
+            <img src="img/Vitória.png" alt="Imagem da Vitória" class="equipe">
+            <img src="img/Wendel.png" alt="Imagem do Wendel" class="equipe">
+            <img src="img/Yuri.png" alt="Imagem do Yuri" class="equipe">
         </div>     
-        <div class="classificacao-jogo">
+        <div class="footer">
             <img src="img/idade-permitida.png" alt="classifição etária do jogo">
             <p class="copyright">&copy; Copyright Tech Fox 2021</p>
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/rotas.js"></script>
+    <script src="js/modos.js"></script>
     <script src="js/scroll.js"></script>
 </body>
 </html> 

@@ -1,8 +1,8 @@
 /*Titulo, fundo e botão de download*/
 #download {
     background-image: url(/img/download-fudo.jpeg);
+    background-repeat: no-repeat;
     background-size: 100%;
-    width: 97.1%;
     height: 42vw;
     text-align: center;
     padding: 1rem;  

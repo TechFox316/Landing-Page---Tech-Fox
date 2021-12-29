@@ -1,0 +1,37 @@
+#modos-jogo {
+    text-align: center;
+    padding: 3vw;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.titulo-modos {
+    font-size: 5vw;
+}
+
+.titulo-secundário {
+    font-size: 3vw;
+    margin: 1vw 0;
+}
+
+.imagens-modos {
+    width: 100%;
+    margin: 2vw auto;
+}
+
+.texto-modos {
+    font-size: 1.7vw;
+    line-height: 2vw;
+    margin: 2vw auto 2vw auto;
+    width: 50%;
+
+}
+
+.button-modos{
+    padding: 0vw 1vw;
+    font-size: 2vw;
+    background: transparent;
+    border: 0.2vw solid lightskyblue;
+    color: #ffffff;
+    opacity: 80%;
+}

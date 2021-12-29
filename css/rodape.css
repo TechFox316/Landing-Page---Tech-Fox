@@ -6,15 +6,16 @@ footer {
 
 #tech-fox {
     background-image: url(/img/fundo-footer.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
     width: 100%;
-    height: 50vw;
+    height: 100%;
     padding: 0 0 3rem 0;
     text-align: center;
 }
 
 .titulo-equipe {
-    font-size: 3rem;
+    font-size: 5vw;
     padding: 3vw 0 2vw;
     color: #FFFFFF;
     font-weight: 800;
@@ -23,28 +24,30 @@ footer {
 }
 
 .equipe {
-    width: 12%;
-    height: 17vw;
-    margin: 1rem;
+     width: 9vw;
+    height: 9.5vw;
+    margin: 1.3vw 2.5vw;
     display: inline-block;
+    border: 2px solid black;
+    box-shadow: 1.2vw 1.2vw 2vw black;
+    border-radius: 50%;
+    background-color: white;
 }
 
-.classificacao-jogo {
+.footer {
     text-align: center;
-    padding: 3rem 0 1rem 0;
+    padding: 3vw 0 3vw 0;
 }
 
-.classificacao-jogo img {
+.footer img {
     text-align: justify;
     display: inline-block;
-    padding: 3vw 0 1vw 0;
 }
 .copyright {
     text-align: center;
-    font-size: 1.3rem;
-    padding: 2rem 0 1rem;
+    font-size: 1.6vw;
+    margin: 2.5vw 3vw;
     color: #FFFFFF;
     display: inline-block;
     vertical-align: top;
-    margin: 1.3rem 0 0 1rem;
 }
