@@ -24,16 +24,18 @@ footer {
 }
 
 .equipe {
-     width: 9vw;
+    width: 9vw;
     height: 9.5vw;
-    margin: 1.3vw 2.5vw;
     display: inline-block;
     border: 2px solid black;
     box-shadow: 1.2vw 1.2vw 2vw black;
     border-radius: 50%;
     background-color: white;
+    -webkit-transition: all 0.4s ease-in;
 }
-
+.equipe:hover {
+	-webkit-transform: scale(1.5);
+}
 .footer {
     text-align: center;
     padding: 3vw 0 3vw 0;
@@ -50,4 +52,36 @@ footer {
     color: #FFFFFF;
     display: inline-block;
     vertical-align: top;
+}
+
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  width: 9vw;
+  height: 9.5vw;
+  border-radius: 50%;
+  margin: 25px;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+   width: 200px;
+  height: 200px;
+  
 }
