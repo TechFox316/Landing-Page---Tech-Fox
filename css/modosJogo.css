@@ -7,16 +7,30 @@
 
 .titulo-modos {
     font-size: 5vw;
+    margin-bottom: 2vw ;
 }
 
 .titulo-secundário {
     font-size: 3vw;
     margin: 1vw 0;
+    position: absolute;
+    top:310vw;
+    left: 30vw;
+}
+
+.corpo{
+    overflow: hidden;
 }
 
 .imagens-modos {
     width: 100%;
-    margin: 2vw auto;
+    
+    transition: all 0.3s;
+}
+
+.imagens-modos:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
 }
 
 .texto-modos {
@@ -24,6 +38,9 @@
     line-height: 2vw;
     margin: 2vw auto 2vw auto;
     width: 50%;
+    position: absolute;
+    top:320vw;
+    left: 30vw;
 
 }
 
@@ -35,3 +52,6 @@
     color: #ffffff;
     opacity: 80%;
 }
+
+
+
