@@ -23,14 +23,22 @@
                 <img src="img/logo.jpg" alt="logo">
                 <h1 id="logo"><img class="logoLOW" src="img/LOW.png"></h1>
             </div>
+            
+            <div class="menu-toggle">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
+            </div>
             <nav class="barraNavegar">
                 <ul>
                     <li><a href="#oQueE">O que é?</a></li>
                     <li><a href="#comoJogar">Como jogar</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#download">Download</a></li>
+                    <li><a href="#home" class="home-menu">⇧</a></li>
                 </ul>
             </nav>
+        
         </div>
     </header>
     <main>   
@@ -50,41 +58,32 @@
             </div>
         </section>
         <section id="comoJogar">
-            <div>
-                <h2>Como Jogar</h2>
+            <div class="comoJogar">
+                <h2 style="padding: 5vw 0 0 0;">Como Jogar</h2>
                 <p>Escolha um campeão entre os +100 que se adeque ao seu estilo de batalha (Podendo escolher entre as personalidades de assassinos, 
                     suportes/controlador, mago, tanque, atirador, lutador, únicos).Cada personalidade tem sua própria rota para chegar à vitória.
                 </p>
+                
             </div>
             <img src="img/como-jogar.jpg" alt="imagem de como jogar">
-            <img src="img/modos-de-jogo.png" alt="imagem dos modos de jogo">
+            
             <div id="rotas">
-                <h2 class="rotas-titulo" style="padding: 2em 0 0 0;">Rotas</h2>
-                <p class="rotas-texto">Existem cinco posições que integram a composição de equipe recomendada para o jogo. Cada rota combina melhor com certos 
-                    tipos de Campeões e funções, então experimente todas elas ou foque na rota que mais lhe agradar.
-                </p>
-                <div id="rotas-input">
-                    <label for="rota-principal"><input class="rotas-troca" type="radio" name="rotas" value="principal"
-                    id="rota-principal" checked></label>
-
-                    <label for="rota-superior"><input class="rotas-troca" type="radio" name="rotas" value="superior"
-                    id="rota-superior"></label>
-                    
-                    <label for="rota-selva"><input class="rotas-troca" type="radio" name="rotas" value="selva"
-                    id="rota-selva"></label>
-                    
-                    <label for="rota-meio"><input class="rotas-troca" type="radio" name="rotas" value="meio"
-                    id="rota-meio"></label>
-
-                    <label for="rota-inferior "><input class="rotas-troca" type="radio" name="rotas" value="inferior "
-                    id="rota-inferior"></label>
-
-                    <label for="rota-suporte"><input class="rotas-troca" type="radio" name="rotas" value="suporte"
-                    id="rota-suporte"></label>
+                <img src="img/modos-de-jogo.png" alt="imagem dos modos de jogo" class="image-rota">
+                <div class="rotas-conteudo">
+                    <h2 class="rotas-titulo" style="padding: 8vw 0 0 0;">Rotas</h2>
+                    <p class="rotas-texto">Existem cinco posições que integram a composição de equipe recomendada para o jogo. Cada rota combina melhor com certos 
+                        tipos de Campeões e funções, então experimente todas elas ou foque na rota que mais lhe agradar.
+                    </p>
                 </div>
+                
+                <img src="img/rota-inferior.jpeg" alt="" class="rotas-troca" id="rota-superior">
+                <img src="img/rota-inferior.jpeg" alt="" class="rotas-troca" id="rota-inferior">
+                <img src="img/rota-meio.jpeg" alt="" class="rotas-troca" id="rota-meio">
+                <img src="img/rota-suporte.jpeg" alt="" class="rotas-troca" id="rota-suporte">
+                <img src="img/rota-selva.jpeg" alt="" class="rotas-troca" id="rota-selva">
             </div>
-            <div id="skins-text">
-                <h2 style="padding: 1em 0 0 0;">Skins</h2>
+            <div id="skins-text" class="comoJogar">
+                <h2 style="padding: 6.2vw 0 0 0;">Skins</h2>
                 <p>Cansado de ter a aparência do mesmo estilo de personagem sempre? Então as Skins e cromas são a solução.
                     <br>Pode-se os adquirir através de jogatina ou comprando-os na loja.</p>
             </div>
@@ -127,8 +126,8 @@
             <h3  class="titulo-secundário" >SUMMONERS RIFT</h3>
             <p class="texto-modos">O MODO DE JOGO MAIS JOGADO - sua rota, mergulhe em épicos confrontos de equipe 5v5 e destrua o Nexus inimigo antes que destruam o seu</p>
 
-            <button class="button-modos" id="left">🠔</button> 
-            <button class="button-modos" id="right">🠖</button>
+            <button class="button-modos" id="left">❮</button> 
+            <button class="button-modos" id="right">❯</button>
     
            
         </section>
@@ -162,6 +161,7 @@
         </div>
     </footer>
     <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/rotas.js"></script>
     <script src="js/modos.js"></script>
     <script src="js/scroll.js"></script>

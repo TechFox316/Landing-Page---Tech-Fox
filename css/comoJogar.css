@@ -6,8 +6,8 @@
     padding: 3.5vw 0;
 }
 
-#comoJogar div {
-    width: 40%;
+#comoJogar .comoJogar {
+    width: 35%;
     display: inline-block;
     vertical-align: top;
     margin: 0 3vw 0 3vw;
@@ -26,22 +26,100 @@
 #comoJogar p {
     font-size: 1.5vw;
     padding: 1.5vw 0 0 0;
-    line-height: 3vw;
+    line-height: 2.5vw;
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     font-weight: 500;
     letter-spacing: 0.04rem;
 }
 
 #comoJogar img {
-    width: 50%;
+    width: 55%;
+    
 }
 
 /*Rotas*/
-#rotas-input {
-    position: absolute;
-    left: 2vw;
-    top: 177vw;
-    transform: scale(1.4);
+#rotas .rotas-conteudo {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 3vw 0 0vw;
+}
+
+#rotas h2 {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+
+#rotas p {
+    font-size: 1.5vw;
+    padding: 1.5vw 0 0 0;
+    line-height: 2.5vw;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+    
+}
+
+#rotas img {
+    width: 65%;
+    
+}
+
+#rotas .rotas-troca {
+    width: 4vw;
+    height: 4vw;
+    border-radius: 5vw;
+    background-color: transparent;
+}
+
+#rota-superior  {
+    position: relative;
+    top:-37vw;
+    left: 21vw;
+    transform: rotate(180deg);
+}
+
+#rota-inferior  {
+    position: relative;
+    top:-19vw;
+    left: 42vw;
+    transform: rotate(180deg);
+}
+
+#rota-meio  {
+    position: relative;
+    top:-29.5vw;
+    left: 23vw;
+    transform: rotate(180deg);
+}
+
+#rota-suporte  {
+    position: relative;
+    top:-18vw;
+    left: 21vw;
+    transform: rotate(180deg);
+}
+
+#rota-selva  {
+    position: relative;
+    top:-29vw;
+    left: 7vw;
+    transform: rotate(180deg);
+}
+
+#rota-superior:hover, 
+#rota-inferior:hover, 
+#rota-meio:hover, 
+#rota-suporte:hover, 
+#rota-selva:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;
 }
 
 
@@ -85,9 +163,8 @@
 
 .texto {
     width: 50%;
-    text-align: center;
     font-size: 1.7vw;
-    padding: 3vw 0;
+    padding: 5vw 0 0 0;
     margin: 0 auto;
     line-height: 2.4vw;
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;

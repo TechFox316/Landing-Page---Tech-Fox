@@ -10,7 +10,7 @@ footer {
     background-size: 100%;
     width: 100%;
     height: 100%;
-    padding: 0 0 3rem 0;
+    padding: 0 0 5vw 0;
     text-align: center;
 }
 
@@ -24,8 +24,8 @@ footer {
 }
 
 .equipe {
-     width: 9vw;
-    height: 9.5vw;
+    width: 9vw;
+    height: 9vw;
     margin: 1.3vw 2.5vw;
     display: inline-block;
     border: 2px solid black;
@@ -42,6 +42,7 @@ footer {
 .footer img {
     text-align: justify;
     display: inline-block;
+    width: 12vw;
 }
 .copyright {
     text-align: center;
