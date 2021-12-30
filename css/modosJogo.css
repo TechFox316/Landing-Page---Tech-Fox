@@ -1,0 +1,57 @@
+#modos-jogo {
+    text-align: center;
+    padding: 3vw;
+    background-color: #111111;
+    color: #ffffff;
+}
+
+.titulo-modos {
+    font-size: 5vw;
+    margin-bottom: 2vw ;
+}
+
+.titulo-secundário {
+    font-size: 3vw;
+    margin: 1vw 0;
+    position: absolute;
+    top:310vw;
+    left: 30vw;
+}
+
+.corpo{
+    overflow: hidden;
+}
+
+.imagens-modos {
+    width: 100%;
+    
+    transition: all 0.3s;
+}
+
+.imagens-modos:hover{
+    transition: 0.3s;
+    transform: scale(1.1);
+}
+
+.texto-modos {
+    font-size: 1.7vw;
+    line-height: 2vw;
+    margin: 2vw auto 2vw auto;
+    width: 50%;
+    position: absolute;
+    top:320vw;
+    left: 30vw;
+
+}
+
+.button-modos{
+    padding: 0vw 1vw;
+    font-size: 2vw;
+    background: transparent;
+    border: 0.2vw solid lightskyblue;
+    color: #ffffff;
+    opacity: 80%;
+}
+
+
+

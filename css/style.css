@@ -1,0 +1,177 @@
+/*
+html {
+    font-size: 62.5%;
+}
+*/
+@media (max-width: 2560px) {
+    #rotas-input {
+        position: absolute;
+        left: 52vw;
+        top: 175vw;
+        transform: scale(3);
+        
+    }
+}
+
+@media (max-width: 1920px) {
+    #rotas-input {
+        position: absolute;
+        left: 38vw;
+        top: 176.5vw;
+        transform: scale(2.3);
+        
+    }
+}
+
+@media (max-width: 1500px) {
+    #rotas-input {
+        position: absolute;
+        left: 23vw;
+        top: 178vw;
+        transform: scale(1.5);
+        
+    }
+}
+
+@media (max-width: 1200px) {
+    #rotas-input {
+        position: absolute;
+        left: 18vw;
+        top: 178vw;
+        transform: scale(1.2);
+        
+    }
+}
+
+
+@media (max-width: 1024px) {
+    #rotas-input {
+        position: absolute;
+        left: 16vw;
+        top: 179vw;
+        transform: scale(1.2);
+        
+    }
+}
+
+@media (max-width: 900px) {
+    #rotas-input {
+        position: absolute;
+        left: 12vw;
+        top: 180vw;
+        transform: scale(1);
+        
+    }
+}
+
+@media (max-width: 800px) {
+    #rotas-input {
+        position: absolute;
+        left: 11vw;
+        top: 180vw;
+        transform: scale(0.95);
+    }
+}
+
+@media (max-width: 700px) {
+    
+    #rotas-input {
+        position: absolute;
+        left: 10vw;
+        top: 180vw;
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 600px) {
+    .inputs input {
+        transform: scale(0.6);
+        top: 0.5vw;
+    }
+    #rotas-input {
+        position: absolute;
+        left: 9vw;
+        top: 182vw;
+        transform: scale(0.85);
+    }
+}
+
+@media (max-width: 550px) {
+    .inputs input {
+        transform: scale(0.6);
+        top: 0.5vw;
+    }
+    #rotas-input {
+        position: absolute;
+        left: 7vw;
+        top: 183vw;
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 500px) {
+    .inputs input {
+        transform: scale(0.6);
+        top: 0.5vw;
+    }
+    #rotas-input {
+        position: absolute;
+        left: 6vw;
+        top: 185vw;
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 450px) {
+    .inputs input {
+        transform: scale(0.6);
+        top: 0.5vw;
+    }
+    #rotas-input {
+        position: absolute;
+        left: 4vw;
+        top: 187vw;
+        transform: scale(0.7);
+    }
+}
+
+@media (max-width: 400px) {
+    .inputs input {
+        transform: scale(0.6);
+        top: 0.5vw;
+    }
+    #rotas-input {
+        position: absolute;
+        left: 4vw;
+        top: 189vw;
+        transform: scale(0.5);
+    }
+}
+/*
+@media (max-width: 768px) {
+    html {
+        font-size: 9.74px;
+    }
+
+    .inputs input {
+        transform: scale(1.2);
+        top: 0.4vw;
+    }
+    #rotas-input {
+        transform: scale(0.8);
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 5.7px;
+    }
+    .inputs input {
+        transform: scale(0.6);
+        top: 0.5vw;
+    }
+    #rotas-input {
+        transform: scale(0.6);
+    }
+}
+*/
