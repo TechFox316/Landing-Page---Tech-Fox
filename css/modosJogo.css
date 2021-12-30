@@ -15,7 +15,7 @@
     margin: 1vw 0;
     position: absolute;
     top:310vw;
-    left: 30vw;
+    left: 38vw;
 }
 
 .corpo{
@@ -40,7 +40,8 @@
     width: 50%;
     position: absolute;
     top:320vw;
-    left: 30vw;
+    left: 29vw;
+    
 
 }
 
@@ -53,5 +54,16 @@
     opacity: 80%;
 }
 
+#left{
+   position: absolute;
+   top: 325vw;
+   left: 5vw;
+}
+
+#right{
+    position: absolute;
+    top:325vw ;
+    right: 5vw;
+}
 
 
