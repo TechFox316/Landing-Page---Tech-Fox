@@ -3,19 +3,41 @@
     padding: 3vw;
     background-color: #111111;
     color: #ffffff;
+    height: 100%;
 }
 
 .titulo-modos {
+    display: inline-block;
+    text-align: center;
     font-size: 5vw;
-    margin-bottom: 2vw ;
+    position: relative;
+    top: 20vw;
+    text-shadow: 0.2vw 0.2vw 0.2vw black;
+    z-index: 10;
 }
 
 .titulo-secundário {
-    font-size: 3vw;
+    text-align: center;
+    font-size: 4vw;
     margin: 1vw 0;
+    position: absolute ;
+    top:340vw;
+    left: 34%;
+    text-shadow: 0.2vw 0.2vw 0.2vw black;
+}
+
+.texto-modos {
+    text-align: center;
+    font-size: 2vw;
+    line-height: 2vw;
+    margin: 2vw auto 2vw auto;
+    width: 60%;
     position: absolute;
-    top:310vw;
-    left: 38vw;
+    top:350vw;
+    left: 20.5%;
+    text-shadow: 0.2vw 0.2vw 0.2vw black;
+    
+
 }
 
 .corpo{
@@ -24,46 +46,39 @@
 
 .imagens-modos {
     width: 100%;
-    
+    margin-top: 4vw;
     transition: all 0.3s;
 }
 
-.imagens-modos:hover{
-    transition: 0.3s;
-    transform: scale(1.1);
-}
-
-.texto-modos {
-    font-size: 1.7vw;
-    line-height: 2vw;
-    margin: 2vw auto 2vw auto;
-    width: 50%;
-    position: absolute;
-    top:320vw;
-    left: 29vw;
+.imagens-modos:hover {
     
-
+    transition: 0.3s;
+    transform: scale(1.15);
 }
+
 
 .button-modos{
     padding: 0vw 1vw;
-    font-size: 2vw;
+    font-size: 5vw;
+    height: 4vw;
     background: transparent;
-    border: 0.2vw solid lightskyblue;
-    color: #ffffff;
-    opacity: 80%;
+    border: 0.2vw solid transparent;
+    color: lightskyblue;
+    opacity: 100%;
 }
 
 #left{
    position: absolute;
-   top: 325vw;
+   top: 338vw;
    left: 5vw;
+   
 }
 
 #right{
     position: absolute;
-    top:325vw ;
+    top:338vw ;
     right: 5vw;
+    
 }
 
 

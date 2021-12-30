@@ -46,7 +46,7 @@ var classes = [assasino, mago, lutador, atirador, suporte, tanque];
 var cont = 0;
 
 function troca() {
-    classes[cont].checked = true
+    classes[cont].checked = true;
     textoPagina();
     cont++;
     if(cont == classes.length) {
