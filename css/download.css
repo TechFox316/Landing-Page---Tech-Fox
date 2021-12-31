@@ -35,8 +35,7 @@
     padding: 1.304% 1%;
     top: 27.85vw;
 }
-
-.botao-download:hover {
+.botao-download:hover,.botao-site:hover {
     color: #222222;
 }
 
