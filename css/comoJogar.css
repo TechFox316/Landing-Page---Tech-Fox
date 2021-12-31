@@ -3,7 +3,7 @@
     width: 100%;
     height: 100%;
     color:white;
-    padding: 3.5vw 0;
+    
 }
 
 #comoJogar .comoJogar {
@@ -34,7 +34,7 @@
 
 #comoJogar img {
     width: 55%;
-    
+    display: inline-block;
 }
 
 /*Rotas*/
@@ -72,55 +72,54 @@
 }
 
 #rotas .rotas-troca {
-    width: 4vw;
-    height: 4vw;
+    width: 3vw;
+    height: 3vw;
+    border: 0.2vw solid lightskyblue;
     border-radius: 5vw;
+    padding: 0.8vw;
     background-color: transparent;
 }
 
+#rota-superior.on, 
+#rota-inferior.on, 
+#rota-meio.on, 
+#rota-suporte.on, 
+#rota-selva.on {
+    transform: scale(1.35);
+    transition-duration: 1s;
+}
+
+
 #rota-superior  {
-    position: relative;
-    top:-37vw;
+    position: absolute;
+    top:147.5vw;
     left: 21vw;
-    transform: rotate(180deg);
 }
 
 #rota-inferior  {
-    position: relative;
-    top:-19vw;
-    left: 42vw;
-    transform: rotate(180deg);
+    position: absolute;
+    top:166vw;
+    left: 46vw;
 }
 
 #rota-meio  {
-    position: relative;
-    top:-29.5vw;
-    left: 23vw;
-    transform: rotate(180deg);
+    position: absolute;
+    top:155.5vw;
+    left: 31.5vw;
 }
 
 #rota-suporte  {
-    position: relative;
-    top:-18vw;
-    left: 21vw;
-    transform: rotate(180deg);
+    position: absolute;
+    top:168vw;
+    left: 36vw;
 }
 
 #rota-selva  {
-    position: relative;
-    top:-29vw;
-    left: 7vw;
-    transform: rotate(180deg);
+    position: absolute;
+    top:156vw;
+    left: 24.5vw;
 }
 
-#rota-superior:hover, 
-#rota-inferior:hover, 
-#rota-meio:hover, 
-#rota-suporte:hover, 
-#rota-selva:hover {
-    transform: scale(1.5);
-    transition-duration: 1s;
-}
 
 
 /*Habilidades de cada classe*/
@@ -129,6 +128,7 @@
     color: #FFFFFF;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 .habilidades-titulo {

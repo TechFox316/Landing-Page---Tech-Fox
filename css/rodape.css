@@ -29,7 +29,7 @@ footer {
 .equipe {
     width: 9vw;
     height: 9vw;
-    margin: 1.3vw 2.5vw;
+    margin: 1.3vw 0vw;
     display: inline-block;
     border: 2px solid black;
     box-shadow: 1.2vw 1.2vw 2vw black;
@@ -62,46 +62,46 @@ footer {
 
 /*ToolTip das imagens dos integrantes do grupo*/
 .tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-    width: 9vw;
-    height: 9.5vw;
-    border-radius: 50%;
-    margin: 25px;
+  position: relative;
+  display: inline-block;
+  border-bottom: 0.1vw dotted black;
+  width: 9vw;
+  height: 9vw;
+  border-radius: 50%;
+  margin: 2vw;
+
 }
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 120px;
+    width: 12vw;
     background-color: #4a058bd8;
     color: #fff;
     text-align: center;
-    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
-    border-radius: 6px;
-    padding: 5px 0;
-
-  /* Position the tooltip */
+    border-radius: 0.6vw;
+    padding: 1vw 0;
+    font-size: 1.4vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* Position the tooltip */
     position: absolute;
     z-index: 1;
-  /*POsição teste*/
-    width: 120px;
+    /*POsição teste*/
+    width: 12vw;
     top: 100%;
     left: 50%;
-    margin-left: -60px; 
-  
+    margin-left: -8vw; 
 }
 
 .tooltip:hover .tooltiptext {
-    visibility: visible;
-    text-align: center;
-    width: 150px;
-    height: 50px;
-    padding: 5px;
-    
+  visibility: visible;
+  text-align: center;
+    width: 12vw;
+  height: 4.5vw;
+  padding: 1.5vw;
 }
+
 .LinkPerfil{
-    padding: 1px;
+    padding: 1vw 0vw;
     color: white;
 }
 .LinkPerfil:hover{
