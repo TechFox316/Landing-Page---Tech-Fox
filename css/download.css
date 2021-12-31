@@ -16,7 +16,7 @@
     top: 3vw;
 }
 
-.botao-download {
+.botao-download, .botao-site {
     background: rgb(168, 130, 32);
     padding: 1% 2%;
     color: #FFFFFF;
@@ -29,6 +29,19 @@
     top: 28vw;
 }
 
+.botao-site {
+    font-size: 1.5vw;
+    padding: 1.304% 1%;
+    top: 27.85vw;
+}
+
 .botao-download:hover {
     color: #222222;
+}
+
+.span {
+    display: block;
+    position: relative;
+    top: 29vw;
+    font-size: 1.5vw;
 }
