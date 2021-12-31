@@ -11,7 +11,7 @@
     text-align: center;
     font-size: 5vw;
     position: absolute;
-    top: 318vw;
+    top: 310vw;
     right: 32vw;
     text-shadow: 0.2vw 0.2vw 0.2vw black;
     z-index: 10;
@@ -22,7 +22,7 @@
     font-size: 4vw;
     margin: 1vw 0;
     position: absolute ;
-    top:331vw;
+    top:322vw;
     left: 34%;
     text-shadow: 0.2vw 0.2vw 0.2vw black;
 }
@@ -34,7 +34,7 @@
     margin: 2vw auto 2vw auto;
     width: 60%;
     position: absolute;
-    top:340vw;
+    top:332vw;
     left: 20.5%;
     text-shadow: 0.2vw 0.2vw 0.2vw black;
     
@@ -64,14 +64,14 @@
 
 #left{
    position: absolute;
-   top: 332vw;
+   top: 320vw;
    left: 5vw;
    
 }
 
 #right{
     position: absolute;
-    top:332vw ;
+    top:320vw ;
     right: 5vw;
     
 }
