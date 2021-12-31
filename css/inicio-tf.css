@@ -1,0 +1,33 @@
+
+#home {
+    background-image: url("../img/fundo-tf.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100vw;
+    height: 70vh;
+}
+
+#home h1{
+  font: 5vh FreeMono, monospace	;
+  letter-spacing: 0.3vw;
+}
+
+.homeItens {
+    position: relative;
+    top: 30vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 11.3vw;
+    align-items: center;
+}
+
+.homeLinha {
+    width: 8em;
+    height: 0.2em;
+    background-color: black;
+    margin-top: 5vh;
+}
+
+.trofeu {
+   width: 20%;
+}
