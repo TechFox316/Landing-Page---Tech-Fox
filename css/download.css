@@ -1,0 +1,52 @@
+/*Titulo, fundo e botão de download*/
+#download {
+    background-image: url(/img/download-fudo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 42vw;
+    text-align: center;
+    padding: 1rem;  
+    color: #FFFFFF;
+}
+
+.download-titulo {
+    font-size: 6vw;
+    font-weight: bold;
+    position: relative;
+    top: 3vw;
+}
+
+.botao-download, .botao-site {
+    background: rgb(168, 130, 32);
+    padding: 1% 2%;
+    margin: 0 1vw;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 2vw ;
+    border: 0rem solid #ffffff;
+    border-radius: 1vw;
+    cursor: pointer;
+    position: relative;
+    top: 28vw;
+}
+
+.botao-site {
+    font-size: 1.5vw;
+    padding: 1.304% 1%;
+    top: 27.85vw;
+}
+.botao-download:hover,.botao-site:hover {
+    color: #222222;
+}
+
+.span {
+    display: block;
+    position: relative;
+    top: 29vw;
+    font-size: 1.5vw;
+}
+.span-site {
+    position: relative;
+    top: 29vw;
+    font-size: 1.5vw;
+}

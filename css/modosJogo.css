@@ -1,0 +1,84 @@
+#modos-jogo {
+    text-align: center;
+    padding: 3vw;
+    background-color: #111111;
+    color: #ffffff;
+    height: 100%;
+}
+
+.titulo-modos {
+    display: inline-block;
+    text-align: center;
+    font-size: 5vw;
+    position: relative;
+    top: 20vw;
+    text-shadow: 0.2vw 0.2vw 0.2vw black;
+    z-index: 10;
+}
+
+.titulo-secundário {
+    text-align: center;
+    font-size: 4vw;
+    margin: 1vw 0;
+    position: absolute ;
+    top:340vw;
+    left: 34%;
+    text-shadow: 0.2vw 0.2vw 0.2vw black;
+}
+
+.texto-modos {
+    text-align: center;
+    font-size: 2vw;
+    line-height: 2vw;
+    margin: 2vw auto 2vw auto;
+    width: 60%;
+    position: absolute;
+    top:350vw;
+    left: 20.5%;
+    text-shadow: 0.2vw 0.2vw 0.2vw black;
+    
+
+}
+
+.corpo{
+    overflow: hidden;
+}
+
+.imagens-modos {
+    width: 100%;
+    margin-top: 4vw;
+    transition: all 0.3s;
+}
+
+.imagens-modos:hover {
+    
+    transition: 0.3s;
+    transform: scale(1.15);
+}
+
+
+.button-modos{
+    padding: 0vw 1vw;
+    font-size: 5vw;
+    height: 4vw;
+    background: transparent;
+    border: 0.2vw solid transparent;
+    color: lightskyblue;
+    opacity: 100%;
+}
+
+#left{
+   position: absolute;
+   top: 338vw;
+   left: 5vw;
+   
+}
+
+#right{
+    position: absolute;
+    top:338vw ;
+    right: 5vw;
+    
+}
+
+

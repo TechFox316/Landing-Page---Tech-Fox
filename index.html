@@ -11,120 +11,232 @@
     <link rel="stylesheet" type="text/css" href="css/comoJogar.css">
     <link rel="stylesheet" type="text/css" href="css/download.css">
     <link rel="stylesheet" type="text/css" href="css/rodape.css">
+    <link rel="stylesheet" type="text/css" href="css/modosJogo.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="icon" href="img/logo.jpg" type="image/x-icon"/>
     <title>Tech Fox</title>
 </head>
 <body><!---->
     <header>
-        <div class="cabecalho">
+        <div id="cabecalho">
             <div style="display: flex; align-items: center;">
                 <img src="img/logo.jpg" alt="logo">
-                <h1 id="logo">League of Legends</h1>
+                <h1 id="logo"><img class="logoLOW" src="img/LOW.png"></h1>
+            </div>
+            
+            <div class="menu-toggle">
+                <div class="one"></div>
+                <div class="two"></div>
+                <div class="three"></div>
             </div>
             <nav class="barraNavegar">
                 <ul>
-                    <li><a href="#home">Home</a></li>
                     <li><a href="#oQueE">O que é?</a></li>
                     <li><a href="#comoJogar">Como jogar</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#download">Download</a></li>
+                    <li><a href="#home" class="home-menu">⇧</a></li>
                 </ul>
             </nav>
+        
         </div>
-
     </header>
-
     <main>   
         <section id="home">
-            <img class="logoLOW" src="img/LOW.png">
+            <img src="img/planodefundo.jpg" alt="imagem de fundo">
         </section> 
         <section id="oQueE">
-            <h1>O que é League of Legends?</h1>
-            <p>League of Legends é um jogo de estratégia MOBA - Multiplayer Online Battle Arena - em que duas equipes de cinco poderosos Campeões se enfrentam para destruir a base uma da outra.</p>
+            <div>
+                 <video autoplay="true" loop muted="muted" class="video">
+                    <source src="video/video-fundo.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div class="sinopse">
+                <h1>O que é League of Legends?</h1>
+            <p>League of Legends é um jogo de estratégia MOBA em que duas equipes de cinco poderosos Campeõe se enfrentam para destruir a base uma da outra.</p>
             <p class="italico">Escolha entre  +100 Campeões para realizar jogadas épicas, assegurar abates e destruir torres conforme você luta até a vitória.</p>
+            </div>
         </section>
         <section id="comoJogar">
-            <div>
-                <h2>Como Jogar</h2>
+            <div class="comoJogar">
+                <h2 style="padding: 5vw 0 0 0;">Como Jogar</h2>
                 <p>Escolha um campeão entre os +100 que se adeque ao seu estilo de batalha (Podendo escolher entre as personalidades de assassinos, 
                     suportes/controlador, mago, tanque, atirador, lutador, únicos).Cada personalidade tem sua própria rota para chegar à vitória.
                 </p>
+                
             </div>
             <img src="img/como-jogar.jpg" alt="imagem de como jogar">
-            <img src="img/modos-de-jogo.png" alt="imagem dos modos de jogo">
-            <div>
-                <h2 style="padding: 2em 0 0 0;">Modos de Jogo</h2>
-                <p>Existem cinco posições que integram a composição de equipe recomendada para o jogo. Cada rota combina melhor com certos 
-                    tipos de Campeões e funções, então experimente todas elas ou foque na rota que mais lhe agradar.
-                </p>
+            
+            <div id="rotas">
+                <img src="img/modos-de-jogo.png" alt="imagem dos modos de jogo" class="image-rota">
+                <div class="rotas-conteudo">
+                    <h2 class="rotas-titulo" style="padding: 8vw 0 0 0;">Rotas</h2>
+                    <p class="rotas-texto">Existem cinco posições que integram a composição de equipe recomendada para o jogo. Cada rota combina melhor com certos 
+                        tipos de Campeões e funções, então experimente todas elas ou foque na rota que mais lhe agradar.
+                    </p>
+                </div>
+                
+                <img src="img/rota-inferior.jpeg" alt="" class="rotas-troca" id="rota-superior">
+                <img src="img/rota-inferior.jpeg" alt="" class="rotas-troca" id="rota-inferior">
+                <img src="img/rota-meio.jpeg" alt="" class="rotas-troca" id="rota-meio">
+                <img src="img/rota-suporte.jpeg" alt="" class="rotas-troca" id="rota-suporte">
+                <img src="img/rota-selva.jpeg" alt="" class="rotas-troca" id="rota-selva">
             </div>
-            <div id="skins-text">
-                <h2 style="padding: 1em 0 0 0;">Skins</h2>
+            <div id="skins-text" class="comoJogar">
+                <h2 style="padding: 6.2vw 0 0 0;">Skins</h2>
                 <p>Cansado de ter a aparência do mesmo estilo de personagem sempre? Então as Skins e cromas são a solução.
                     <br>Pode-se os adquirir através de jogatina ou comprando-os na loja.</p>
             </div>
             <img src="img/skins.jpg" alt="Imagens de skins">
         </section>
-        <section class="habilidades">
+        <section id="habilidades">
             <h2 class="habilidades-titulo">Habilidades</h2>
            
-            <img src="" alt="">
+            <video autoplay="true" loop src="video/assassino.mp4" muted="muted" id="video-classe" class="video-habilidades"></video>
             
             <div class="inputs">
                 <label for="classe-assasino"><input type="radio" name="classes" value="assassino"
-                id="classe-assasino" checked>assasino</label>
+                id="classe-assasino" checked>Assasino</label>
 
                 <label for="classe-mago"><input type="radio" name="classes" value="mago"
-                id="classe-mago">mago</label>
+                id="classe-mago">Mago</label>
                 
                 <label for="classe-lutador"><input type="radio" name="classes" value="lutador"
-                id="classe-lutador">lutador</label>
+                id="classe-lutador">Lutador</label>
                 
                 <label for="classe-atirador"><input type="radio" name="classes" value="atirador"
-                id="classe-atirador">atirador</label>
+                id="classe-atirador">Atirador</label>
 
                 <label for="classe-suporte"><input type="radio" name="classes" value="suporte"
-                id="classe-suporte">suporte</label>
+                id="classe-suporte">Suporte</label>
 
                 <label for="classe-tanque"><input type="radio" name="classes" value="tanque"
-                id="classe-tanque">tanque</label>
+                id="classe-tanque">Tanque</label>
             </div>
            
             <p class="texto">
-                conteudo explicativo
-            </p>
+               
+            </p
         </section>  
+        <section id="modos-jogo">
+            <h2 class="titulo-modos">Modos de Jogo</h2>
+            
+            <img src="img/summoners-rift.jpeg" alt="summoners rift" class="imagens-modos">
+            
+            <h3  class="titulo-secundário" >SUMMONERS RIFT</h3>
+            <p class="texto-modos">O MODO DE JOGO MAIS JOGADO - sua rota, mergulhe em épicos confrontos de equipe 5v5 e destrua o Nexus inimigo antes que destruam o seu</p>
 
+            <button class="button-modos" id="left">❮</button> 
+            <button class="button-modos" id="right">❯</button>
+    
+           
+        </section>
+        <section id="download">
+                <h2 class="download-titulo">Download</h2>
+                <input type="button" value="Download" class="botao-download">
+                <input type="button" value="Visite nosso site" class="botao-site">
+                <span class="span"></span>
+                
+
+        </section>
     </main>
     <footer>
-        <div class="integrantes">
+        <div id="tech-fox">
             <h2 class="titulo-equipe">Tech Fox</h2>
-        
-            <img src="img/Anelmar.png" alt="Imagem do Anelmar" class="equipe">
-            <img src="img/Augusto.png" alt="Imagem do Augusto" class="equipe">
-            <img src="img/Diego.png" alt="Imagem do Diego" class="equipe">
-            <img src="img/Gabriel-S.png" alt="Imagem do Gabriel S." class="equipe">
-            <img src="img/Gabriel-Vanz.png" alt="Imagem do Gabriel Vanz" class="equipe">
-            <img src="img/Gabriele.png" alt="Imagem da Gabriele" class="equipe">
-            <img src="img/Giovanna.png" alt="Imagem da Giovana" class="equipe">
-            <img src="img/Luiza.png" alt="Imagem da Luiza" class="equipe">
-            <img src="img/Marllon.png" alt="Imagem do Marllon" class="equipe">
-            <img src="img/Stéfany.png" alt="Imagem da Stéfany" class="equipe">
-            <img src="img/Tiago.png" alt="Imagem do Tiago" class="equipe">
-            <img src="img/Vitória.png" alt="Imagem da Vitória" class="equipe">
-            <img src="img/Wendel.png" alt="Imagem do Wendel" class="equipe">
-            <img src="img/Yuri.png" alt="Imagem do Yuri" class="equipe">
-        </div>
-        
-        <div>
-            <img src="img/fundo-footer.jpg" alt="fundo antes do copyright" class="foooter-fundo">
-        </div>
-        <div class="classificacao-jogo">
+            
+            <div class="tooltip">
+            	<img src="img/Anelmar.png" alt="Imagem do Anelmar" class="equipe">
+  		<span class="tooltiptext">Anelmar Junior <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/anelmar-junior-0770a4175"> Linkedin </a> </span>
+	    </div>
+            
+            <div class="tooltip"> 
+            	<img src="img/Augusto.png" alt="Imagem do Augusto" class="equipe">
+  		<span class="tooltiptext">Augusto Santos <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/augusto-santos-barbosa-maciel-599361225"> Linkedin </a> </span>
+            </div>
+      
+            <div class="tooltip"> 
+            	<img src="img/Diego.png" alt="Imagem do Diego" class="equipe">
+  		<span class="tooltiptext">Diego S. <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/diego-s-1309161b4"> Linkedin </a>
+</span>
+	    </div>      
+      
+            <div class="tooltip"> 
+            	<img src="img/Gabriel-S.png" alt="Imagem do Gabriel S." class="equipe">
+  		<span class="tooltiptext">Gabriel Santa Bárbara <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/gabriel-santa-b%C3%A1rbara"> Linkedin </a>
+</span>
+	    </div>      
+      
+            <div class="tooltip"> 
+            	<img src="img/Gabriel-Vanz.png" alt="Imagem do Gabriel Vanz" class="equipe">
+  		<span class="tooltiptext">Gabriel Vanz <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/gabrielvanz/"> Linkedin </a>
+</span>
+	    </div>      
+      
+            <div class="tooltip"> 
+            	<img src="img/Gabriele.png" alt="Imagem da Gabriele" class="equipe">
+  		<span class="tooltiptext">Gabriele Sá <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/gabriele-s%C3%A1"> Linkedin </a>
+</span>
+	    </div>      
+      
+            <div class="tooltip"> 
+            	<img src="img/Giovanna.png" alt="Imagem da Giovana" class="equipe">
+  		<span class="tooltiptext">Giovanna Alyssa <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/giovanna-alyssa-a12607179"> Linkedin </a>
+</span>
+	    </div>      
+      
+            <div class="tooltip"> 
+            	<img src="img/Luiza.png" alt="Imagem da Luiza" class="equipe">
+  		<span class="tooltiptext">Luiza Cardoso <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/luiza-cardoso-866336226"> Linkedin </a>
+</span>
+	    </div>      
+                  
+            <div class="tooltip"> 
+            	<img src="img/Marllon.png" alt="Imagem do Marllon" class="equipe">
+  		<span class="tooltiptext">Marllon Santos <br> <a class="LinkPerfil" href="https://www.linkedin.com/mwlite/in/marllon-santos-328871220"> Linkedin </a>
+</span>
+	    </div>      
+                              
+            <div class="tooltip"> 
+            	<img src="img/Stéfany.png" alt="Imagem da Stéfany" class="equipe">
+  		<span class="tooltiptext">Stefany Jesus <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/stefany-jesus-858876185"> Linkedin </a>
+</span>
+	    </div>      
+                  
+            <div class="tooltip"> 
+            	<img src="img/Tiago.png" alt="Imagem do Tiago" class="equipe">
+  		<span class="tooltiptext">Tiago Henrick <br> <a class="LinkPerfil" href="http://www.linkedin.com/in/thiago-silva-henrick"> Linkedin </a>
+</span>
+	    </div>      
+                  
+            <div class="tooltip"> 
+            	<img src="img/Vitória.png" alt="Imagem da Vitória" class="equipe">
+  		<span class="tooltiptext">Vitória Barbosa <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/vitoriabarbosaa"> Linkedin </a>
+</span>
+	    </div>      
+                  
+            <div class="tooltip"> 
+            	<img src="img/Wendel.png" alt="Imagem do Wendel" class="equipe">
+  		<span class="tooltiptext">Wendel Henrique <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/wendelhenriquewhp/"> Linkedin </a>
+</span>
+	    </div>      
+                  
+            <div class="tooltip"> 
+            	<img src="img/Yuri.png" alt="Imagem do Yuri" class="equipe">
+  		<span class="tooltiptext">Yuri Andre <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/yuriandrre"> Linkedin </a>
+</span>
+	    </div>      
+
+        </div>     
+        <div class="footer">
             <img src="img/idade-permitida.png" alt="classifição etária do jogo">
             <p class="copyright">&copy; Copyright Tech Fox 2021</p>
         </div>
     </footer>
-
     <script src="js/script.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/rotas.js"></script>
+    <script src="js/modos.js"></script>
+    <script src="js/dowload.js"></script>
     <script src="js/scroll.js"></script>
 </body>
 </html> 
