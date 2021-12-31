@@ -10,10 +10,15 @@
 }
 
 .download-titulo {
-    font-size: 6vw;
-    font-weight: bold;
-    position: relative;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
     top: 3vw;
+    position: relative;
 }
 
 .botao-download, .botao-site {
@@ -21,8 +26,8 @@
     padding: 1% 2%;
     margin: 0 1vw;
     color: #FFFFFF;
-    font-weight: bold;
     font-size: 2vw ;
+    font-family: fantasy;
     border: 0rem solid #ffffff;
     border-radius: 1vw;
     cursor: pointer;
@@ -44,6 +49,8 @@
     position: relative;
     top: 29vw;
     font-size: 1.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
 }
 .span-site {
     position: relative;

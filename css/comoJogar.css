@@ -152,6 +152,7 @@
 .inputs  {
     text-align: center;
     font-size: 1.5vw;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
 }
 
 .inputs input {
@@ -163,7 +164,7 @@
 
 .texto {
     width: 50%;
-    font-size: 1.7vw;
+    font-size: 1.5vw;
     padding: 5vw 0 0 0;
     margin: 0 auto;
     line-height: 2.4vw;

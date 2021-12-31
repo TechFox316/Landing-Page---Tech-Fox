@@ -15,12 +15,15 @@ footer {
 }
 
 .titulo-equipe {
-    font-size: 5vw;
+    font-size: 4vw;
     padding: 3vw 0 2vw;
     color: #FFFFFF;
     font-weight: 800;
-    letter-spacing: 0.1vw;
+    letter-spacing: 0.05rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+
 }
 
 .equipe {
@@ -49,37 +52,38 @@ footer {
 }
 .copyright {
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     margin: 2.5vw 3vw;
     color: #FFFFFF;
     display: inline-block;
     vertical-align: top;
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /*ToolTip das imagens dos integrantes do grupo*/
 .tooltip {
-  position: relative;
-  display: inline-block;
-  border-bottom: 1px dotted black;
-  width: 9vw;
-  height: 9.5vw;
-  border-radius: 50%;
-  margin: 25px;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    width: 9vw;
+    height: 9.5vw;
+    border-radius: 50%;
+    margin: 25px;
 }
 
 .tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #4a058bd8;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 5px 0;
+    visibility: hidden;
+    width: 120px;
+    background-color: #4a058bd8;
+    color: #fff;
+    text-align: center;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    border-radius: 6px;
+    padding: 5px 0;
 
   /* Position the tooltip */
-  position: absolute;
-  z-index: 1;
+    position: absolute;
+    z-index: 1;
   /*POsição teste*/
     width: 120px;
     top: 100%;
@@ -89,12 +93,12 @@ footer {
 }
 
 .tooltip:hover .tooltiptext {
-  visibility: visible;
-  text-align: center;
-   width: 150px;
-  height: 50px;
-  padding: 5px;
-  
+    visibility: visible;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    
 }
 .LinkPerfil{
     padding: 1px;
