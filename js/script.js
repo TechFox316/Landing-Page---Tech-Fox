@@ -56,6 +56,6 @@ function troca() {
 troca();
 setInterval(() => {
     troca();
-}, 10000);
+}, 5000);
 
 

@@ -27,3 +27,15 @@ function trocaModos () {
 
 buttonLeft.addEventListener("click", trocaModos)
 buttonRight.addEventListener("click", trocaModos)
+
+//Animação da imagem de fundo
+
+let modosPagina = document.querySelector("#modos-jogo");
+
+let imagem = document.querySelector("imagens-modos");
+
+modosPagina.addEventListener("mousewheel", () => {
+    imagemModos.style.transform = "scale(1.2)";
+    imagemModos.style.transition = "1s";
+    imagemModos.style.width = "88.7%";
+})

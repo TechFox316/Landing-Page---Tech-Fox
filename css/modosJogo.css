@@ -10,8 +10,9 @@
     display: inline-block;
     text-align: center;
     font-size: 5vw;
-    position: relative;
-    top: 20vw;
+    position: absolute;
+    top: 318vw;
+    right: 32vw;
     text-shadow: 0.2vw 0.2vw 0.2vw black;
     z-index: 10;
 }
@@ -21,7 +22,7 @@
     font-size: 4vw;
     margin: 1vw 0;
     position: absolute ;
-    top:340vw;
+    top:331vw;
     left: 34%;
     text-shadow: 0.2vw 0.2vw 0.2vw black;
 }
@@ -33,7 +34,7 @@
     margin: 2vw auto 2vw auto;
     width: 60%;
     position: absolute;
-    top:350vw;
+    top:340vw;
     left: 20.5%;
     text-shadow: 0.2vw 0.2vw 0.2vw black;
     
@@ -47,15 +48,9 @@
 .imagens-modos {
     width: 100%;
     margin-top: 4vw;
-    transition: all 0.3s;
+    position: relative;
+    top: -1.2vw;
 }
-
-.imagens-modos:hover {
-    
-    transition: 0.3s;
-    transform: scale(1.15);
-}
-
 
 .button-modos{
     padding: 0vw 1vw;
@@ -69,14 +64,14 @@
 
 #left{
    position: absolute;
-   top: 338vw;
+   top: 332vw;
    left: 5vw;
    
 }
 
 #right{
     position: absolute;
-    top:338vw ;
+    top:332vw ;
     right: 5vw;
     
 }
