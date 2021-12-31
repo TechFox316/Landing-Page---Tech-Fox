@@ -10,7 +10,7 @@ footer {
     background-size: 100%;
     width: 100%;
     height: 100%;
-    padding: 0 0 3rem 0;
+    padding: 0 0 5vw 0;
     text-align: center;
 }
 
@@ -25,7 +25,8 @@ footer {
 
 .equipe {
     width: 9vw;
-    height: 9.5vw;
+    height: 9vw;
+    margin: 1.3vw 2.5vw;
     display: inline-block;
     border: 2px solid black;
     box-shadow: 1.2vw 1.2vw 2vw black;
@@ -44,6 +45,7 @@ footer {
 .footer img {
     text-align: justify;
     display: inline-block;
+    width: 12vw;
 }
 .copyright {
     text-align: center;
@@ -52,9 +54,10 @@ footer {
     color: #FFFFFF;
     display: inline-block;
     vertical-align: top;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+/*ToolTip das imagens dos integrantes do grupo*/
 .tooltip {
   position: relative;
   display: inline-block;
@@ -100,5 +103,3 @@ footer {
 .LinkPerfil:hover{
 	color: black;
 }
-  
-  
