@@ -10,6 +10,10 @@
     display: inline-block;
     text-align: center;
     font-size: 5vw;
+    letter-spacing: 0.05rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
     position: absolute;
     top: 310vw;
     right: 32vw;
@@ -22,6 +26,11 @@
     font-size: 4vw;
     margin: 1vw 0;
     position: absolute ;
+    letter-spacing: 0.05rem;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
     top:322vw;
     left: 34%;
     text-shadow: 0.2vw 0.2vw 0.2vw black;
@@ -29,8 +38,10 @@
 
 .texto-modos {
     text-align: center;
-    font-size: 2vw;
-    line-height: 2vw;
+    font-size: 1.7vw;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     margin: 2vw auto 2vw auto;
     width: 60%;
     position: absolute;

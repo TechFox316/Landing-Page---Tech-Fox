@@ -15,12 +15,15 @@ footer {
 }
 
 .titulo-equipe {
-    font-size: 5vw;
+    font-size: 4vw;
     padding: 3vw 0 2vw;
     color: #FFFFFF;
     font-weight: 800;
-    letter-spacing: 0.1vw;
+    letter-spacing: 0.05rem;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+
 }
 
 .equipe {
@@ -49,7 +52,7 @@ footer {
 }
 .copyright {
     text-align: center;
-    font-size: 1.6vw;
+    font-size: 1.4vw;
     margin: 2.5vw 3vw;
     color: #FFFFFF;
     display: inline-block;
@@ -66,6 +69,7 @@ footer {
   height: 9vw;
   border-radius: 50%;
   margin: 2vw;
+
 }
 
 .tooltip .tooltiptext {
@@ -86,7 +90,6 @@ footer {
     top: 100%;
     left: 50%;
     margin-left: -8vw; 
-    
 }
 
 .tooltip:hover .tooltiptext {
@@ -95,8 +98,8 @@ footer {
     width: 12vw;
   height: 4.5vw;
   padding: 1.5vw;
-  
 }
+
 .LinkPerfil{
     padding: 1vw 0vw;
     color: white;
