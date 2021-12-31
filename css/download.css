@@ -19,6 +19,7 @@
 .botao-download, .botao-site {
     background: rgb(168, 130, 32);
     padding: 1% 2%;
+    margin: 0 1vw;
     color: #FFFFFF;
     font-weight: bold;
     font-size: 2vw ;
@@ -41,6 +42,11 @@
 
 .span {
     display: block;
+    position: relative;
+    top: 29vw;
+    font-size: 1.5vw;
+}
+.span-site {
     position: relative;
     top: 29vw;
     font-size: 1.5vw;
