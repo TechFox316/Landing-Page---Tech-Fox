@@ -1,4 +1,6 @@
-const menuLinks = document.querySelectorAll('.barraNavegar a[href^="#"]');
+var menu = document.querySelector("#cabecalho");
+
+const menuLinks = document.querySelectorAll('a[href^="#"]');
 
 function getDistanceFromTheTop(element) {
   const id = element.getAttribute("href");
@@ -7,7 +9,7 @@ function getDistanceFromTheTop(element) {
 
 function scrollToSection(event) {
   event.preventDefault();
-  const distanceFromTheTop = getDistanceFromTheTop(event.target) - 58;
+  const distanceFromTheTop = getDistanceFromTheTop(event.target) - menu.offsetHeight;
   smoothScrollTo(0, distanceFromTheTop);
 }
 

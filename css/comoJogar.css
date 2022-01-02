@@ -17,7 +17,7 @@
     font-size: 4vw;
     text-align: center;
     font-weight: 800;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.08vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     text-transform: uppercase;
@@ -29,7 +29,7 @@
     line-height: 2.5vw;
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     font-weight: 500;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.07vw;
 }
 
 #comoJogar img {
@@ -39,7 +39,7 @@
 
 /*Rotas*/
 #rotas .rotas-conteudo {
-    width: 30%;
+    width:27vw;
     display: inline-block;
     vertical-align: top;
     margin: 0 3vw 0 0vw;
@@ -49,7 +49,7 @@
     font-size: 4vw;
     text-align: center;
     font-weight: 800;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.08vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-style: italic;
     text-transform: uppercase;
@@ -62,12 +62,12 @@
     line-height: 2.5vw;
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     font-weight: 500;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.07vw;
     
 }
 
 #rotas img {
-    width: 65%;
+    width: 65vw;
     
 }
 
@@ -92,31 +92,31 @@
 
 #rota-superior  {
     position: absolute;
-    top:147.5vw;
+    top:151vw;
     left: 21vw;
 }
 
 #rota-inferior  {
     position: absolute;
-    top:166vw;
+    top:169.5vw;
     left: 46vw;
 }
 
 #rota-meio  {
     position: absolute;
-    top:155.5vw;
+    top:159vw;
     left: 31.5vw;
 }
 
 #rota-suporte  {
     position: absolute;
-    top:168vw;
+    top:171.5vw;
     left: 36vw;
 }
 
 #rota-selva  {
     position: absolute;
-    top:156vw;
+    top:159.5vw;
     left: 24.5vw;
 }
 
@@ -157,7 +157,7 @@
 
 .inputs input {
     transform: scale(1.5);
-    margin: 0 1rem 0 1rem;
+    margin: 0 1vw 0 1vw;
     position: relative;
     top: 0.3vw;
 }
@@ -170,5 +170,5 @@
     line-height: 2.4vw;
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     font-weight: 500;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.07vw;
 }

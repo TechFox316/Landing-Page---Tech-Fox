@@ -1,56 +1,55 @@
 #oQueE {
     width: 100%;
-    height: 49.1vw;
-    color:white;
-    text-align: center;
+    height: 49.423vw;
+    background: #111111;
 }
 
 #oQueE h1 {
     font-size: 5.35vw;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.08vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: 800;
     font-style: italic;
     text-transform: uppercase;
-    text-align: center;
     color: #FFFFFF;
-    padding-top: 15%;
-    padding-bottom: 2%;
-    text-shadow: 0.1rem 0.1rem 0.2rem black;
+    text-shadow: 0.1vw 0.1vw 0.2vw black;
     opacity: 100%;
-    position: relative;
-    top: -50vw;
+    position: absolute;
+    top: 74vw;
+    left: 9.5vw;
 }
 
 #oQueE p {
     font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
     font-size: 1.7vw;
     width: 50%;
-    margin:2% auto 0% auto;
+    margin:0% auto 0% auto;
     opacity: 100%;
     font-weight: 800;
-    letter-spacing: 0.03rem;
+    letter-spacing: 0.05vw;
     text-size-adjust: 100%;
     color: #FFFFFF;
     line-height: 2vw;
-    position: relative;
-    top: -50vw;
+    position: absolute;
+    top: 85vw;
+    left: 24.5vw;
 }
 
-.italico {
+#oQueE .italico {
     font-style: italic;
+    position: absolute;
+    top: 92vw;
+    left: 24.5vw;
 }
 
 .video {
     width: 100%;
-    height: 49.4vw;
-    position: relative;
-    top: -0.2rem;
-    right: 0px;
+    height: 100%;
     object-fit: cover;
     opacity: 80%;
+    
 }
 
 .sinopse {
-    text-shadow: black 0.1rem 0.1rem 0.2rem;
+    text-shadow: black 0.1vw 0.1vw 0.2vw;
 }
