@@ -9,7 +9,7 @@ function popUp(botao, frase) {
 }
 
 function redirecionarParaTF() {
-    setInterval(() => {
+    setTimeout(() => {
         window.open("/techfox.html", "_blank");
     }, 1000);
     
