@@ -1,0 +1,46 @@
+body {
+    width: 100%; 
+}
+
+#cabecalho {
+    opacity: 95%;
+    width: 100%;
+    height: 16.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    margin:10px;
+    position: fixed;
+    z-index: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.tfImg{
+   position: relative;
+   width: 16vw;
+   left: 5vw;
+}
+
+.barraNavegar li {
+    display: inline-block;
+    text-decoration: none;
+    height: 100%;
+    margin: 0 0 0 3vw;
+    /*text-shadow: black 0.15vw 0.15vw 0.25vw;*/
+    position: relative;
+    right: 15vw;
+}
+
+.barraNavegar a {
+    font-family:FreeMono, monospace	;
+    font-size: 1.5vw;
+    letter-spacing: 0.2vw;
+    text-decoration: none;
+    color: #f04324;
+    display: inline-block;
+}
+
+.barraNavegar a:hover {
+    color: #444444; 
+}
