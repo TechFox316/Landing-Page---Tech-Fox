@@ -55,10 +55,7 @@ html {
 }
 
 @media (max-width: 900px) {
-    #rotas-input {
-        position: absolute;
-        left: 12vw;
-        top: 180vw;
+    .inputs {
         transform: scale(1);
         
     }
@@ -127,7 +124,7 @@ html {
        right: 0;
 
        width: 20vw;
-       height: 21.5vh;
+       height: 16vw;
 
        z-index: 1001;
 
@@ -146,11 +143,6 @@ html {
         transition-duration: 0.5s;
     }
 
-    .barraNavegar.on .home-menu {
-        border: 0.5vw solid #ffffff;
-        padding: 0vw 1vw;
-        position: static;
-    }
 }
 
 @media (max-width: 500px) {
@@ -191,31 +183,3 @@ html {
         transform: scale(0.5);
     }
 }
-/*
-@media (max-width: 768px) {
-    html {
-        font-size: 9.74px;
-    }
-
-    .inputs input {
-        transform: scale(1.2);
-        top: 0.4vw;
-    }
-    #rotas-input {
-        transform: scale(0.8);
-    }
-}
-
-@media (max-width: 450px) {
-    html {
-        font-size: 5.7px;
-    }
-    .inputs input {
-        transform: scale(0.6);
-        top: 0.5vw;
-    }
-    #rotas-input {
-        transform: scale(0.6);
-    }
-}
-*/
