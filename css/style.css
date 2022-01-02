@@ -4,92 +4,64 @@ html {
 }
 */
 @media (max-width: 2560px) {
-    #rotas-input {
-        position: absolute;
-        left: 52vw;
-        top: 175vw;
+    .inputs input {
         transform: scale(3);
-        
+        top: -0.2vw;
     }
 }
 
-@media (max-width: 1920px) {
-    #rotas-input {
-        position: absolute;
-        left: 38vw;
-        top: 176.5vw;
-        transform: scale(2.3);
-        
+@media (max-width: 2000px) {
+    .inputs input {
+        transform: scale(2.5);
+        top: -0.1vw;
     }
 }
 
-@media (max-width: 1500px) {
-    #rotas-input {
-        position: absolute;
-        left: 23vw;
-        top: 178vw;
+@media (max-width: 1600px) {
+    .inputs input {
+        transform: scale(2);
+        top: -0.2vw;
+    }
+}
+
+@media (max-width: 1400px) {
+    .inputs input {
         transform: scale(1.5);
-        
+        top: 0.1vw;
     }
 }
 
-@media (max-width: 1200px) {
-    #rotas-input {
-        position: absolute;
-        left: 18vw;
-        top: 178vw;
-        transform: scale(1.2);
-        
-    }
-}
-
-
-@media (max-width: 1024px) {
-    #rotas-input {
-        position: absolute;
-        left: 16vw;
-        top: 179vw;
-        transform: scale(1.2);
-        
+@media (max-width: 1100px) {
+    .inputs input {
+        transform: scale(1.25);
+        top: 0.1vw;
     }
 }
 
 @media (max-width: 900px) {
-    .inputs {
+    .inputs input {
         transform: scale(1);
-        
+        top: 0.3vw;
     }
 }
 
-@media (max-width: 800px){
-    #rotas-input {
-        position: absolute;
-        left: 11vw;
-        top: 180vw;
-        transform: scale(0.95);
+@media (max-width: 730px){
+    .inputs input {
+        transform: scale(0.9);
+        top: 0.4vw;
     }
 }
 
 @media (max-width: 700px) {
-    
-    #rotas-input {
-        position: absolute;
-        left: 10vw;
-        top: 180vw;
-        transform: scale(0.9);
+    .inputs input {
+        top: 0.5vw;
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
     .inputs input {
-        transform: scale(0.6);
-        top: 0.5vw;
-    }
-    #rotas-input {
-        position: absolute;
-        left: 9vw;
-        top: 182vw;
-        transform: scale(0.85);
+        transform: scale(0.8);
+        top: 0.6vw;
     }
 }
 
@@ -143,43 +115,35 @@ html {
         transition-duration: 0.5s;
     }
 
+    .inputs input {
+        transform: scale(0.7);
+        top: 0.7vw;
+    }
 }
 
 @media (max-width: 500px) {
     .inputs input {
         transform: scale(0.6);
-        top: 0.5vw;
-    }
-    #rotas-input {
-        position: absolute;
-        left: 6vw;
-        top: 185vw;
-        transform: scale(0.8);
+        top: 0.8vw;
     }
 }
 
 @media (max-width: 450px) {
     .inputs input {
-        transform: scale(0.6);
-        top: 0.5vw;
-    }
-    #rotas-input {
-        position: absolute;
-        left: 4vw;
-        top: 187vw;
-        transform: scale(0.7);
+        transform: scale(0.5);
+        top: 0.9vw;
     }
 }
 
 @media (max-width: 400px) {
     .inputs input {
-        transform: scale(0.6);
-        top: 0.5vw;
+        transform: scale(0.4);
+        top: 1.3vw;
     }
-    #rotas-input {
-        position: absolute;
-        left: 4vw;
-        top: 189vw;
-        transform: scale(0.5);
+}
+
+@media (max-width: 300px) {
+    .inputs input {
+        top: 1.4vw;
     }
 }
