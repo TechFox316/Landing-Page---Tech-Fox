@@ -16,12 +16,14 @@
     margin: 8% 0 0 0%;
 }
 
+/*Botão de menu home para ir para o inicio da página*/
+
 .home-menu {
     text-decoration: none;
     
     text-shadow: black 0.15vw 0.15vw 0.25vw;
     position: fixed;
-    top: 90vh;
+    top: 93vh;
     right: 3vw;
     z-index: 1000;
     font-family:fantasy;
