@@ -9,6 +9,10 @@ function popUp(botao, frase) {
 });
 }
 
+function redirecionarParaTF() {
+    window.location.href = "../techfox.html";
+}
+
 popUp(".botao-download", 0 );
 
 popUp(".botao-site", 1 );
