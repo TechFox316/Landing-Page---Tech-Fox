@@ -49,18 +49,5 @@ mudaClasse(1, 1)
 setInterval(() => {
     troca(1);
 }, 5000);
-/*
-function troca() {
-    classes[cont].checked = true;
-    textoPagina();
-    cont++;
-    if(cont == classes.length) {
-        cont = 0
-    }
-}
-troca();
-setInterval(() => {
-    troca();
-}, 5000);
-*/
+
 
