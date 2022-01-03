@@ -51,7 +51,6 @@ function mudancaEscala(event, scale, width) {
 }
 
 
-mudancaEscala(modosPagina, "scale(1.2)", "88.7%")
-mudancaEscala(habilidadesPagina, "scale(1)", "100%")
-mudancaEscala(downloadPagina, "scale(1)", "100%")
-
+mudancaEscala(modosPagina, "scale(1.2)", "88.7%");
+mudancaEscala(habilidadesPagina, "scale(1)", "100%");
+mudancaEscala(downloadPagina, "scale(1)", "100%");
