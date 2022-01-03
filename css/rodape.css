@@ -34,7 +34,7 @@ footer {
     border: 2px solid black;
     box-shadow: 1.2vw 1.2vw 2vw black;
     border-radius: 50%;
-    background-color: white;
+    background-color: rgb(200, 200, 200);
     -webkit-transition: all 0.4s ease-in;
 }
 .equipe:hover {
@@ -42,18 +42,18 @@ footer {
 }
 .footer {
     text-align: center;
-    padding: 3vw 0 3vw 0;
+    padding: 1vw 0 0.8vw 0;
 }
 
 .footer img {
     text-align: justify;
     display: inline-block;
-    width: 12vw;
+    width: 10vw;
 }
 .copyright {
     text-align: center;
-    font-size: 1.4vw;
-    margin: 2.5vw 3vw;
+    font-size: 1vw;
+    margin: 0.9vw 1vw;
     color: #FFFFFF;
     display: inline-block;
     vertical-align: top;
@@ -75,8 +75,8 @@ footer {
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 12vw;
-    background-color: #4a058bd8;
-    color: #fff;
+    background-color: rgb(2, 2, 2, 70%);
+    color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 0.6vw;
     padding: 1vw 0;
@@ -96,14 +96,14 @@ footer {
   visibility: visible;
   text-align: center;
     width: 12vw;
-  height: 4.5vw;
+  height: 2.5vw;
   padding: 1.5vw;
 }
 
 .LinkPerfil{
     padding: 1vw 0vw;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .LinkPerfil:hover{
-	color: black;
+	color: rgb(200, 200, 200);
 }
