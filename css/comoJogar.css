@@ -7,10 +7,10 @@
 }
 
 #comoJogar .comoJogar {
-    width: 35%;
+    width: 30%;
     display: inline-block;
     vertical-align: top;
-    margin: 0 3vw 0 3vw;
+    margin: 10vw 0vw 0 3vw;
 }
 
 #comoJogar h2 {
@@ -33,7 +33,8 @@
 }
 
 #comoJogar img {
-    width: 55%;
+    width: 65%;
+    height: 90vh;
     display: inline-block;
 }
 
@@ -42,7 +43,7 @@
     width:27vw;
     display: inline-block;
     vertical-align: top;
-    margin: 0 3vw 0 0vw;
+    margin: 7vw 0vw 0 0vw;
 }
 
 #rotas h2 {
@@ -68,7 +69,7 @@
 
 #rotas img {
     width: 65vw;
-    
+    height: 90vh;
 }
 
 #rotas .rotas-troca {
@@ -92,31 +93,31 @@
 
 #rota-superior  {
     position: absolute;
-    top:151vw;
+    top:166vw;
     left: 21vw;
 }
 
 #rota-inferior  {
     position: absolute;
-    top:169.5vw;
+    top:186.5vw;
     left: 46vw;
 }
 
 #rota-meio  {
     position: absolute;
-    top:159vw;
+    top:174.5vw;
     left: 31.5vw;
 }
 
 #rota-suporte  {
     position: absolute;
-    top:171.5vw;
+    top:188vw;
     left: 36vw;
 }
 
 #rota-selva  {
     position: absolute;
-    top:159.5vw;
+    top:175vw;
     left: 24.5vw;
 }
 
