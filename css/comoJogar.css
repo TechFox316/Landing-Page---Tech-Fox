@@ -145,22 +145,11 @@
     
 }
 
-.habilidades-titulo {
-    text-align: center;
-    font-size: 4vw;
-    padding: 0vw 0 0vw 0;
-    letter-spacing: 0.08vw;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 800;
-    font-style: italic;
-    text-transform: uppercase;
-}
-
 .video-habilidades {
     width: 100%;
     height: 40vw;
     opacity: 100%;
-    margin: 1vw auto;
+    margin: 0vw auto 1vw;
 }
 
 .button-habilidades {
@@ -180,7 +169,7 @@
 
 .titulo-habilidades {
     position: absolute;
-    top: 265vw;
+    top: 258vw;
     left: 22.35vw;
     width: 55%;
     font-size: 3vw;
@@ -194,7 +183,7 @@
 
 .texto {
     position: absolute;
-    top: 275vw;
+    top: 268vw;
     left: 24vw;
     width: 50%;
     font-size: 1.8vw;
