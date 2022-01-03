@@ -8,18 +8,17 @@ body {
     height: 16.5vw;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-
+    justify-content: space-between;
     margin:10px;
     position: fixed;
+    /*background: #444444;*/
     z-index: 1000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .tfImg{
    position: relative;
-   width: 16vw;
-   left: 5vw;
+   width: 20vw;
 }
 
 .barraNavegar li {
@@ -27,20 +26,21 @@ body {
     text-decoration: none;
     height: 100%;
     margin: 0 0 0 3vw;
-    /*text-shadow: black 0.15vw 0.15vw 0.25vw;*/
+    text-shadow: black 0.15vw 0.15vw 0.25vw;
     position: relative;
-    right: 15vw;
+    right: 30vw;
 }
 
 .barraNavegar a {
-    font-family:FreeMono, monospace	;
-    font-size: 1.5vw;
+    /*font-family:FreeMono, monospace;*/
+    font-family: fantasy;
+    font-size: 2vw;
     letter-spacing: 0.2vw;
     text-decoration: none;
-    color: #f04324;
+    color: white;
     display: inline-block;
 }
 
 .barraNavegar a:hover {
-    color: #444444; 
+    color: #f04324; 
 }

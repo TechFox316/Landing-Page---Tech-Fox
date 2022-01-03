@@ -1,18 +1,19 @@
 body{
-    background-color: ;
+    /*background-color: #f04324;*/
 }
 
 #home {
-    background-image: url("../img/fundo-tf.png");
+    background-image: url("../img/fundo-tf1.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100vw;
-    height: 70vh;
+    height: 100vh;
 }
 
 #home h1{
-  font: 5vh FreeMono, monospace	;
-  letter-spacing: 0.3vw;
+    font: 5vh FreeMono, monospace	;
+    letter-spacing: 0.3vw;
+    color: white;
 }
 
 .homeItens {
@@ -20,17 +21,34 @@ body{
     top: 30vh;
     display: flex;
     justify-content: space-between;
-    padding: 0 11.3vw;
+    padding: 0 6vw;
     align-items: center;
 }
 
 .homeLinha {
     width: 8em;
     height: 0.2em;
-    background-color: black;
+    background-color: white;
     margin-top: 5vh;
 }
 
 .trofeu {
-   width: 20%;
+    width: 20%;
+}
+
+.sobre-titulo {
+    margin-top: 10vh;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.sobre-texto p {
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    letter-spacing: 0.03rem;
+    text-size-adjust: 100%;
+    line-height: 2vw;
+    font-size: 1.7vw;
+    padding: 0 10vw;
 }
