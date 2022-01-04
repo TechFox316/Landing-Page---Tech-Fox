@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-Br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -28,27 +28,30 @@
                 <div class="two"></div>
                 <div class="three"></div>
             </div>
+            <ul class="home-menu">
+                <li><a href="#home">⇧</a></li>
+            </ul>   
             <nav class="barraNavegar">
                 <ul>
                     <li><a href="#oQueE">O que é?</a></li>
                     <li><a href="#comoJogar">Como jogar</a></li>
                     <li><a href="#habilidades">Habilidades</a></li>
                     <li><a href="#download">Download</a></li>
-                    <li><a href="#home" class="home-menu">⇧</a></li>
+                    
                 </ul>
             </nav>
         </div>
     </header>
-    <main>   
+    <main>
         <section id="home">
             <img src="img/planodefundo.jpg" alt="imagem de fundo">
         </section> 
         <section id="oQueE">
-            <div>
+          <!---->  <div>
                  <video autoplay="true" loop muted="muted" class="video">
                     <source src="video/video-fundo.mp4" type="video/mp4">
                 </video>
-            </div>
+            </div> -->
             <div class="sinopse">
                 <h1>O que é League of Legends?</h1>
             <p>League of Legends é um jogo de estratégia MOBA em que duas equipes de cinco poderosos Campeõe se enfrentam para destruir a base uma da outra.</p>
@@ -57,13 +60,13 @@
         </section>
         <section id="comoJogar">
             <div class="comoJogar">
-                <h2 style="padding: 5vw 0 0 0;">Como Jogar</h2>
+                <h2 >Como Jogar</h2>
                 <p>Escolha um campeão entre os +100 que se adeque ao seu estilo de batalha (Podendo escolher entre as personalidades de assassinos, 
                     suportes/controlador, mago, tanque, atirador, lutador, únicos). Cada personalidade tem sua própria rota para chegar à vitória.
                 </p>
                 
             </div>
-            <img src="img/como-jogar.jpg" alt="imagem de como jogar">
+            <img src="img/como-jogar.jpg" alt="imagem de como jogar" class="images-comoJogar">
             <div id="rotas">
                 <img src="img/modos-de-jogo.png" alt="imagem dos modos de jogo" class="image-rota">
                 <div class="rotas-conteudo">
@@ -79,35 +82,20 @@
                 <img src="img/rota-suporte.png" alt="" class="rotas-troca" id="rota-suporte">
                 <img src="img/rota-selva.png" alt="" class="rotas-troca" id="rota-selva">
             </div>
-            <div id="skins-text" class="comoJogar">
+            <div id="skins-text" class="skins">
                 <h2 style="padding: 0vw 0 0 0;">Skins</h2>
                 <p>Cansado de ter a aparência do mesmo estilo de personagem sempre? Então as Skins e cromas são a solução.
                     <br>Pode-se os adquirir através de jogatina ou comprando-os na loja.</p>
             </div>
-            <img src="img/skins.jpg" alt="Imagens de skins">
+            <img src="img/skins.jpg" alt="Imagens de skins" class="images-skins">
         </section>
         <section id="habilidades">
-            <h2 class="habilidades-titulo">Habilidades</h2>
             <video autoplay="true" loop src="video/assassino.mp4" muted="muted" id="video-classe" class="video-habilidades"></video>
-            <div class="inputs">
-                <label for="classe-assasino"><input type="radio" name="classes" value="assassino"
-                id="classe-assasino" checked>Assasino</label>
-
-                <label for="classe-mago"><input type="radio" name="classes" value="mago"
-                id="classe-mago">Mago</label>
-                
-                <label for="classe-lutador"><input type="radio" name="classes" value="lutador"
-                id="classe-lutador">Lutador</label>
-                
-                <label for="classe-atirador"><input type="radio" name="classes" value="atirador"
-                id="classe-atirador">Atirador</label>
-
-                <label for="classe-suporte"><input type="radio" name="classes" value="suporte"
-                id="classe-suporte">Suporte</label>
-
-                <label for="classe-tanque"><input type="radio" name="classes" value="tanque"
-                id="classe-tanque">Tanque</label>
+            <div>
+                <button class="button-habilidades" id="left arrow" >←</button> 
+                <button class="button-habilidades" id="right arrow">→</button>
             </div>
+            <h2 class="titulo-habilidades"></h2>
             <p class="texto"></p>
         </section> 
         <section id="modos-jogo">
@@ -125,7 +113,7 @@
         </section>
         <section id="download">
                 <h2 class="download-titulo">Download</h2>
-                <input type="button" value="Download" class="botao-download">
+                <a href="https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.br.exe" download><input type="button" value="Download" class="botao-download"></a>
                 <input type="button" value="Visite nosso site" class="botao-site" onclick="redirecionarParaTF()">
                 <span class="span"></span>
                 
@@ -137,83 +125,83 @@
             
             <div class="tooltip">
             	<img src="img/Anelmar.png" alt="Imagem do Anelmar" class="equipe">
-  		<span class="tooltiptext">Anelmar Junior <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/anelmar-junior-0770a4175"> Linkedin </a> </span>
+  		<span class="tooltiptext">Anelmar Junior <br> <a class="LinkPerfil" target="_blank" href="https://www.linkedin.com/in/anelmar-junior-0770a4175"> Linkedin </a> </span>
 	    </div>
             
             <div class="tooltip"> 
             	<img src="img/Augusto.png" alt="Imagem do Augusto" class="equipe">
-  		<span class="tooltiptext">Augusto Santos <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/augusto-santos-barbosa-maciel-599361225"> Linkedin </a> </span>
+  		<span class="tooltiptext">Augusto Santos <br> <a class="LinkPerfil" target="_blank" href="https://www.linkedin.com/in/augusto-santos-barbosa-maciel-599361225"> Linkedin </a> </span>
             </div>
       
             <div class="tooltip"> 
             	<img src="img/Diego.png" alt="Imagem do Diego" class="equipe">
-  		        <span class="tooltiptext">Diego S. <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/diego-s-1309161b4"> Linkedin </a>
+  		        <span class="tooltiptext">Diego S. <br> <a class="LinkPerfil" target="_blank" href="https://www.linkedin.com/in/diego-s-1309161b4/"> Linkedin </a>
 </span>
 	    </div>      
       
             <div class="tooltip"> 
             	<img src="img/Gabriel-S.png" alt="Imagem do Gabriel S." class="equipe">
-  		<span class="tooltiptext">Gabriel Santa Bárbara <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/gabriel-santa-b%C3%A1rbara"> Linkedin </a>
+  		<span class="tooltiptext">Gabriel S. <br> <a class="LinkPerfil" target="_blank" href="https://www.linkedin.com/in/gabriel-santa-b%C3%A1rbara"> Linkedin </a>
 </span>
 	    </div>      
       
             <div class="tooltip"> 
             	<img src="img/Gabriel-Vanz.png" alt="Imagem do Gabriel Vanz" class="equipe">
-  		<span class="tooltiptext">Gabriel Vanz <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/gabrielvanz/"> Linkedin </a>
+  		<span class="tooltiptext">Gabriel Vanz <br> <a class="LinkPerfil" target="_blank" href="https://www.linkedin.com/in/gabrielvanz/"> Linkedin </a>
 </span>
 	    </div>      
       
             <div class="tooltip"> 
             	<img src="img/Gabriele.png" alt="Imagem da Gabriele" class="equipe">
-  		<span class="tooltiptext">Gabriele Sá <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/gabriele-s%C3%A1"> Linkedin </a>
+  		<span class="tooltiptext">Gabriele Sá <br> <a class="LinkPerfil" target="_blank"  href="https://www.linkedin.com/in/gabriele-s%C3%A1"> Linkedin </a>
 </span>
 	    </div>      
       
             <div class="tooltip"> 
             	<img src="img/Giovanna.png" alt="Imagem da Giovana" class="equipe">
-  		<span class="tooltiptext">Giovanna Alyssa <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/giovanna-alyssa-a12607179"> Linkedin </a>
+  		<span class="tooltiptext">Giovanna Alyssa <br> <a class="LinkPerfil" target="_blank"  href="https://www.linkedin.com/in/giovanna-alyssa-a12607179"> Linkedin </a>
 </span>
 	    </div>      
       
             <div class="tooltip"> 
             	<img src="img/Luiza.png" alt="Imagem da Luiza" class="equipe">
-  		<span class="tooltiptext">Luiza Cardoso <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/luiza-cardoso-866336226"> Linkedin </a>
+  		<span class="tooltiptext">Luiza Cardoso <br> <a class="LinkPerfil" target="_blank"  href="https://www.linkedin.com/in/luiza-cardoso-866336226"> Linkedin </a>
 </span>
 	    </div>      
                   
             <div class="tooltip"> 
             	<img src="img/Marllon.png" alt="Imagem do Marllon" class="equipe">
-  		<span class="tooltiptext">Marllon Santos <br> <a class="LinkPerfil" href="https://www.linkedin.com/mwlite/in/marllon-santos-328871220"> Linkedin </a>
+  		<span class="tooltiptext">Marllon Santos <br> <a class="LinkPerfil" target="_blank"  href="https://www.linkedin.com/mwlite/in/marllon-santos-328871220"> Linkedin </a>
 </span>
 	    </div>      
                               
             <div class="tooltip"> 
             	<img src="img/Stéfany.png" alt="Imagem da Stéfany" class="equipe">
-  		<span class="tooltiptext">Stefany Jesus <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/stefany-jesus-858876185"> Linkedin </a>
+  		<span class="tooltiptext">Stefany Jesus <br> <a class="LinkPerfil" target="_blank"  href="https://www.linkedin.com/in/stefany-jesus-858876185"> Linkedin </a>
 </span>
 	    </div>      
                   
             <div class="tooltip"> 
             	<img src="img/Tiago.png" alt="Imagem do Tiago" class="equipe">
-  		<span class="tooltiptext">Tiago Henrick <br> <a class="LinkPerfil" href="http://www.linkedin.com/in/thiago-silva-henrick"> Linkedin </a>
+  		<span class="tooltiptext">Tiago Henrick <br> <a class="LinkPerfil" target="_blank"  href="http://www.linkedin.com/in/thiago-silva-henrick"> Linkedin </a>
 </span>
 	    </div>      
                   
             <div class="tooltip"> 
             	<img src="img/Vitória.png" alt="Imagem da Vitória" class="equipe">
-  		<span class="tooltiptext">Vitória Barbosa <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/vitoriabarbosaa"> Linkedin </a>
+  		<span class="tooltiptext">Vitória Barbosa <br> <a class="LinkPerfil" target="_blank"  href="https://www.linkedin.com/in/vitoriabarbosaa"> Linkedin </a>
 </span>
 	    </div>      
                   
             <div class="tooltip"> 
             	<img src="img/Wendel.png" alt="Imagem do Wendel" class="equipe">
-  		<span class="tooltiptext">Wendel Henrique <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/wendelhenriquewhp/"> Linkedin </a>
+  		<span class="tooltiptext">Wendel Henrique <br> <a class="LinkPerfil" target="_blank"  href="https://www.linkedin.com/in/wendelhenriquewhp/"> Linkedin </a>
 </span>
 	    </div>      
                   
             <div class="tooltip"> 
             	<img src="img/Yuri.png" alt="Imagem do Yuri" class="equipe">
-  		<span class="tooltiptext">Yuri Andre <br> <a class="LinkPerfil" href="https://www.linkedin.com/in/yuriandrre"> Linkedin </a>
+  		<span class="tooltiptext">Yuri Andre <br> <a class="LinkPerfil" target="_blank"  href="https://www.linkedin.com/in/yuriandrre"> Linkedin </a>
 </span>
 	    </div>      
 
@@ -228,6 +216,6 @@
     <script src="js/rotas.js"></script>
     <script src="js/modos.js"></script>
     <script src="js/dowload.js"></script>
-    <script src="js/scroll.js"></script>
+    <script src="js/scroll.js"></script> 
 </body>
 </html> 

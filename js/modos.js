@@ -32,10 +32,25 @@ buttonRight.addEventListener("click", trocaModos)
 
 let modosPagina = document.querySelector("#modos-jogo");
 
+let habilidadesPagina = document.querySelector("#habilidades");
+
+let downloadPagina = document.querySelector("#download");
+
+
 let imagem = document.querySelector("imagens-modos");
 
-modosPagina.addEventListener("mousewheel", () => {
-    imagemModos.style.transform = "scale(1.2)";
-    imagemModos.style.transition = "1s";
-    imagemModos.style.width = "88.7%";
-})
+function aleatorio(event) {
+    
+}
+function mudancaEscala(event, scale, width) {
+    event.addEventListener("mousewheel", () => {
+        imagemModos.style.transform = scale;
+        imagemModos.style.transition = "1s";
+        imagemModos.style.width = width;
+    })
+}
+
+
+mudancaEscala(modosPagina, "scale(1.2)", "88.7%");
+mudancaEscala(habilidadesPagina, "scale(1)", "100%");
+mudancaEscala(downloadPagina, "scale(1)", "100%");

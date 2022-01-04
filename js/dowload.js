@@ -1,4 +1,3 @@
-
 var frases = ["Seu Download começará em instantes!", "Aguarde... Você está sendo redirecionado!"];
 function popUp(botao, frase) {
     var span = document.querySelector(".span");
@@ -10,7 +9,10 @@ function popUp(botao, frase) {
 }
 
 function redirecionarParaTF() {
-    window.location.href = "../techfox.html";
+    setTimeout(() => {
+        window.open("/techfox.html", "_blank");
+    }, 1000);
+    
 }
 
 popUp(".botao-download", 0 );

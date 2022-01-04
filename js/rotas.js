@@ -25,7 +25,6 @@ function limpaImgem(limpa) {
 }
 let rotaAntiga = rotas.length;
 
-let pode = false;
 
 function trocaRota(rota) {
     rotas[rota].addEventListener("click", () => { 
@@ -33,11 +32,12 @@ function trocaRota(rota) {
         if (rota != rotaAntiga) {
             titulo.innerHTML = titulos[rota];
             conteudo.innerHTML = textos[rota];
-            rotas[rota].classList.toggle("on");
+            rotas[rota].classList.add("on");
             rotaAntiga = rota;
         } else {
             titulo.innerHTML = titulos[5];
             conteudo.innerHTML = textos[5];
+            rotaAntiga = rotas.length;
         }
     })
     
