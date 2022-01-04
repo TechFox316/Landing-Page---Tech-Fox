@@ -5,21 +5,33 @@ body {
 #cabecalho {
     opacity: 95%;
     width: 100%;
-    height: 16.5vw;
     display: flex;
+    margin: 1%;
     align-items: center;
+<<<<<<< Updated upstream
     justify-content: space-around;
 
     margin:10px;
+=======
+    justify-content: space-between;
+>>>>>>> Stashed changes
     position: fixed;
     z-index: 1000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.8s;
 }
+
+
 
 .tfImg{
    position: relative;
+<<<<<<< Updated upstream
    width: 16vw;
    left: 5vw;
+=======
+   width: 20vw;
+   transition: 0.8s;
+>>>>>>> Stashed changes
 }
 
 .barraNavegar li {
