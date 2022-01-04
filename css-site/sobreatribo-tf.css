@@ -1,0 +1,16 @@
+.equipe{
+    margin: 3vw 0;
+}
+
+.equipe img {
+    display: inline-block;
+    border: 0.2vw solid black;
+    border-radius: 25vw;
+    width: 12vw;
+    height: 12vw;
+}
+
+.texto {
+    display: inline-block;
+    vertical-align: top;
+}
