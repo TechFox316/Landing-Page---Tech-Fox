@@ -2,57 +2,49 @@ body {
     width: 100%; 
 }
 
-.cabecalho {
-    width: 90%;
+#cabecalho {
+    background: #111111;
+    opacity: 95%;
+    width: 100%;
+    height: 5.5vw;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1em;
-    border-bottom: 0.2em solid white;
+    padding: 0em 4vw;
     position: fixed;
-    margin-left: 3.5%;
+    z-index: 1000;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 img {
-    width: 30%;
+    width: 3.5vw;
 }
 
 #logo {
-    margin-left: 0.5em;
-    font-family: fantasy;
-    font-size: 2em;
-    color: whitesmoke;
-    text-shadow: black 0.1em 0.1em 0.2em;
+    margin-left: 1.1vw;
+    font-size: 1vw;
+    
 }
-
 
 .barraNavegar li {
     display: inline-block;
-    background: rgba(255, 81, 0, 0.466);
-    border: 0.15em solid white;
-    border-radius: 1em;
-    text-decoration: none;   
-    width: 10em; 
+    text-decoration: none;
     height: 100%;
-    padding-top: 2.5%;
-    padding-bottom: 2.5%;
-    text-align: center;
-    margin: 0 10px;
+    margin: 0 1vw 0 0;
+    text-shadow: black 0.15vw 0.15vw 0.25vw;
+    position: relative;
+    right: 8vw;
 }
 
 .barraNavegar a {
     font-family:fantasy;
-    font-size: 1.2em;
-    letter-spacing: 0.09em;
+    font-size: 1.5vw;
+    letter-spacing: 0.12vw;
     text-decoration: none;
     color: whitesmoke;
-    
+    display: inline-block;
 }
 
 .barraNavegar a:hover {
-    color: #444444;
-}
-
-.barraNavegar li:hover {
-    transform: scale(1.1);
+    color: #444444; 
 }

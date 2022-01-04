@@ -3,56 +3,172 @@
     width: 100%;
     height: 100%;
     color:white;
-    padding: 3.5em 0;
-}
-
-#comoJogar div {
-    width: 40%;
-    display: inline-block;
-    vertical-align: top;
-    margin: 0 2em 0 2em;
-}
-
-#comoJogar h2 {
-    font-size: 3em;
-    font-weight: bold;
-}
-
-#comoJogar p {
-    font-size: 1.3em;
-    padding: 1em 0 0 0;
-    line-height: 2em;
     
 }
 
-#comoJogar img {
-    width: 50%;
+#comoJogar .comoJogar {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 3vw 0 3vw;
 }
 
+#comoJogar h2 {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+#comoJogar p {
+    font-size: 1.5vw;
+    padding: 1.5vw 0 0 0;
+    line-height: 2.5vw;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+}
+
+#comoJogar img {
+    width: 55%;
+    display: inline-block;
+}
+
+/*Rotas*/
+#rotas .rotas-conteudo {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 3vw 0 0vw;
+}
+
+#rotas h2 {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    
+}
+
+#rotas p {
+    font-size: 1.5vw;
+    padding: 1.5vw 0 0 0;
+    line-height: 2.5vw;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
+    
+}
+
+#rotas img {
+    width: 65%;
+    
+}
+
+#rotas .rotas-troca {
+    width: 3vw;
+    height: 3vw;
+    border: 0.2vw solid lightskyblue;
+    border-radius: 5vw;
+    padding: 0.8vw;
+    background-color: transparent;
+}
+
+#rota-superior.on, 
+#rota-inferior.on, 
+#rota-meio.on, 
+#rota-suporte.on, 
+#rota-selva.on {
+    transform: scale(1.35);
+    transition-duration: 1s;
+}
+
+
+#rota-superior  {
+    position: absolute;
+    top:147.5vw;
+    left: 21vw;
+}
+
+#rota-inferior  {
+    position: absolute;
+    top:166vw;
+    left: 46vw;
+}
+
+#rota-meio  {
+    position: absolute;
+    top:155.5vw;
+    left: 31.5vw;
+}
+
+#rota-suporte  {
+    position: absolute;
+    top:168vw;
+    left: 36vw;
+}
+
+#rota-selva  {
+    position: absolute;
+    top:156vw;
+    left: 24.5vw;
+}
+
+
+
 /*Habilidades de cada classe*/
-.habilidades {
-    background: orange;
+#habilidades {
+    background: #111111;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 }
 
 .habilidades-titulo {
     text-align: center;
-    font-size: 3em;
-    padding: 0.5em;
-    font-weight: bold;
+    font-size: 4vw;
+    padding: 3vw 0 2vw 0;
+    letter-spacing: 0.08vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.video-habilidades {
+    width: 100%;
+    height: 49.4vw;
+    opacity: 100%;
+    padding: 2vw 0;
 }
 
 .inputs  {
     text-align: center;
+    font-size: 1.5vw;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
 }
 
 .inputs input {
     transform: scale(1.5);
-    margin: 0 1em 2em 1em;
+    margin: 0 1rem 0 1rem;
+    position: relative;
+    top: 0.3vw;
 }
 
 .texto {
-    text-align: center;
-    font-size: 1.3em;
-    padding: 1em 1em;
-    line-height: 1.5em;
+    width: 50%;
+    font-size: 1.5vw;
+    padding: 2vw 0 0 0;
+    margin: 0 auto;
+    line-height: 2.4vw;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04rem;
 }

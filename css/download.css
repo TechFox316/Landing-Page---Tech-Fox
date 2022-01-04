@@ -1,0 +1,59 @@
+/*Titulo, fundo e botão de download*/
+#download {
+    background-image: url(/img/download-fudo.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 42vw;
+    text-align: center;
+    padding: 1rem;  
+    color: #FFFFFF;
+}
+
+.download-titulo {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    top: 3vw;
+    position: relative;
+}
+
+.botao-download, .botao-site {
+    background: rgb(168, 130, 32);
+    padding: 1% 2%;
+    margin: 0 1vw;
+    color: #FFFFFF;
+    font-size: 2vw ;
+    font-family: fantasy;
+    border: 0rem solid #ffffff;
+    border-radius: 1vw;
+    cursor: pointer;
+    position: relative;
+    top: 28vw;
+}
+
+.botao-site {
+    font-size: 1.5vw;
+    padding: 1.304% 1%;
+    top: 27.85vw;
+}
+.botao-download:hover,.botao-site:hover {
+    color: #222222;
+}
+
+.span {
+    display: block;
+    position: relative;
+    top: 29vw;
+    font-size: 1.5vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+}
+.span-site {
+    position: relative;
+    top: 29vw;
+    font-size: 1.5vw;
+}
