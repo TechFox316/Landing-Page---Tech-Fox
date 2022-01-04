@@ -13,6 +13,16 @@
 .texto {
     display: inline-block;
     vertical-align: top;
-    margin: 0 2vw;
+    margin: 2vw 1.4vw;
+    
 }
 
+.texto h2 {
+    padding: 0vw 0vw 1vw ;
+    font-size: 1;
+}
+
+.texto p {
+    padding: 0vw 0vw 1vw;
+    font-size: 1;
+}

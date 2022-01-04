@@ -1,0 +1,22 @@
+.perguntas {
+    border: 0.2vw solid black;
+
+
+}
+
+.titulo-duvida {
+    margin: 3vw;
+    font-size: 3vw;
+    text-align: center;
+}
+h2{
+    margin:2vw 0vw 1vw 1vw;
+    font-size: 2vw;
+    border: 0.2vw solid black;
+}
+
+p{
+    margin: 1vw;
+    font-size: 1.5vw;
+    border: 0.2vw solid black;
+}
