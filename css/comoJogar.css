@@ -170,12 +170,14 @@
 .titulo-habilidades {
     position: absolute;
     top: 258vw;
-    left: 22.35vw;
+    left: 10vw;
     width: 55%;
     font-size: 3vw;
     padding: 2vw 0 0 0;
     line-height: 2.4vw;
-    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
     text-shadow: 0.1vw 0.1vw 0.2vw black;
     font-weight: 500;
     letter-spacing: 0.07vw;
