@@ -7,8 +7,7 @@ function resposta(duvida) {
     duvidas[duvida].addEventListener("click", () => {
         resposta.classList.add("on");
         titulo.classList.add("on");
-
-
+        //duvidas[duvida].classList.add("on");
     })
 }
 

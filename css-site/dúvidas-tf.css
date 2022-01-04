@@ -10,6 +10,11 @@
 
 }
 
+.perguntas.on:hover {
+    transform: scale(1);
+
+}
+
 .titulo-duvida {
     margin: 3vw;
     font-size: 3vw;
@@ -24,7 +29,6 @@ h2 {
 h2.on {
     margin:1vw 0vw 1vw 1vw;
     font-size: 1.5vw;
-    
 }
 
 p{
