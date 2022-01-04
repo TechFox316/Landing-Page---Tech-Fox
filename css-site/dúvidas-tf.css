@@ -1,6 +1,12 @@
 .perguntas {
     border: 0.2vw solid black;
+    margin: 2vw 2.5vw;
+    padding: 1vw;
 
+}
+
+.perguntas:hover {
+    transform: scale(1.04);
 
 }
 
@@ -8,15 +14,25 @@
     margin: 3vw;
     font-size: 3vw;
     text-align: center;
+    text-transform: uppercase;
 }
-h2{
-    margin:2vw 0vw 1vw 1vw;
-    font-size: 2vw;
-    border: 0.2vw solid black;
+
+h2 {
+    font-size: 1.5;
+}
+
+h2.on {
+    margin:1vw 0vw 1vw 1vw;
+    font-size: 1.5vw;
+    
 }
 
 p{
-    margin: 1vw;
-    font-size: 1.5vw;
-    border: 0.2vw solid black;
+    display: none;
+}
+
+p.on{
+    display: inline;
+    margin: 2vw 0;
+    font-size: 1.2vw;
 }
