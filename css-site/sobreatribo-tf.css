@@ -1,5 +1,5 @@
 .equipe{
-    margin: 3vw 0;
+    margin: 3vw 2vw;
 }
 
 .equipe img {
@@ -13,4 +13,6 @@
 .texto {
     display: inline-block;
     vertical-align: top;
+    margin: 0 2vw;
 }
+
