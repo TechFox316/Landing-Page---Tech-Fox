@@ -34,12 +34,30 @@ h2.on {
     font-size: 1.5vw;
 }
 
-p{
+.resposta{
     display: none;
 }
 
-p.on{
+.resposta.on{
     display: inline;
     margin: 2vw 1vw;
     font-size: 1.2vw;
+}
+
+.suporte {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 3vw 0 2vw;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.suporte a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.suporte a:hover {
+    text-decoration: underline;
+    color: blue;
 }
