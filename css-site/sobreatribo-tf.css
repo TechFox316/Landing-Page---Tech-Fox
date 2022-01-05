@@ -5,6 +5,7 @@
 
 .equipe img {
     display: inline-block;
+    float: left;
     background: #cccccc;
     border: 0.2vw solid #ffffff;
     border-radius: 25vw;
@@ -16,7 +17,7 @@
     display: inline-block;
     vertical-align: top;
     margin: 2vw 3vw;
-    
+    width: 50vw;
 }
 
 .texto h2 {
@@ -25,6 +26,6 @@
 }
 
 .texto p {
-    padding: 0vw 0vw 1vw;
+    padding: 2vw 0vw 0vw;
     font-size: 1.5vw;
 }
