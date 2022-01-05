@@ -1,5 +1,7 @@
 body{
-    /*background-color: #f04324;*/
+    background: #db5c37;
+    color: #ffffff;
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
 }
 
 #home {

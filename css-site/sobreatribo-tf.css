@@ -1,28 +1,30 @@
 .equipe{
-    margin: 3vw 2vw;
+    margin: 5vw 10vw;
+    text-shadow: 0.1vw 0.1vw 0.1vw black;
 }
 
 .equipe img {
     display: inline-block;
-    border: 0.2vw solid black;
+    background: #cccccc;
+    border: 0.2vw solid #ffffff;
     border-radius: 25vw;
-    width: 12vw;
-    height: 12vw;
+    width: 15vw;
+    height: 15vw;
 }
 
 .texto {
     display: inline-block;
     vertical-align: top;
-    margin: 2vw 1.4vw;
+    margin: 2vw 3vw;
     
 }
 
 .texto h2 {
-    padding: 0vw 0vw 1vw ;
-    font-size: 1;
+    padding: 0vw 0vw 1.5vw ;
+    font-size: 1.8vw;
 }
 
 .texto p {
     padding: 0vw 0vw 1vw;
-    font-size: 1;
+    font-size: 1.5vw;
 }

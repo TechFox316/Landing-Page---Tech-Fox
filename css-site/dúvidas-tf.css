@@ -1,5 +1,12 @@
+body {
+    background: #db5c37;
+    color: #ffffff;
+    text-shadow: 0.2vw 0.2vw 0.2 black;
+}
+
 .perguntas {
-    border: 0.2vw solid black;
+    
+    border: 0.2vw solid #ffffff;
     margin: 2vw 2.5vw;
     padding: 1vw;
 
@@ -7,12 +14,8 @@
 
 .perguntas:hover {
     transform: scale(1.04);
-
-}
-
-.perguntas.on:hover {
-    transform: scale(1);
-
+    color: #3b3a3a;
+    border-color: #3b3a3a;
 }
 
 .titulo-duvida {
@@ -27,7 +30,7 @@ h2 {
 }
 
 h2.on {
-    margin:1vw 0vw 1vw 1vw;
+    margin:0vw 0vw 1vw 1vw;
     font-size: 1.5vw;
 }
 
@@ -37,6 +40,6 @@ p{
 
 p.on{
     display: inline;
-    margin: 2vw 0;
+    margin: 2vw 1vw;
     font-size: 1.2vw;
 }
