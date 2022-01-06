@@ -39,9 +39,9 @@ function trocaRota(rota) {
             conteudo.innerHTML = textos[5];
             rotaAntiga = rotas.length;
         }
-    })
-    
+    }) 
 }
+
 trocaRota(0);
 trocaRota(1);
 trocaRota(2);

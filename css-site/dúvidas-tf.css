@@ -1,0 +1,70 @@
+body {
+    background: #db5c37;
+    color: #ffffff;
+    text-shadow: 0vw 0vw 0 black;
+}
+
+.homeLinha-dvidas {
+    width: 55vw;
+    height: 0.2em;
+    background-color: white;
+    margin-top: 0.5vw;
+}
+
+.perguntas {
+    
+    border: 0.2vw solid #ffffff;
+    margin: 2vw 2.5vw;
+    padding: 1vw;
+
+}
+
+.perguntas:hover {
+    transform: scale(1.04);
+    color: #3b3a3a;
+    border-color: #3b3a3a;
+}
+
+.titulo-duvida {
+    margin: 3vw;
+    font-size: 3vw;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 1.5;
+}
+
+h2.on {
+    margin:0vw 0vw 1vw 1vw;
+    font-size: 1.5vw;
+}
+
+.resposta{
+    display: none;
+}
+
+.resposta.on{
+    display: inline;
+    margin: 2vw 1vw;
+    font-size: 1.2vw;
+}
+
+.suporte {
+    text-align: center;
+    font-size: 1.5vw;
+    margin: 3vw 0 2vw;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.suporte a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.suporte a:hover {
+    text-decoration: underline;
+    color: blue;
+}

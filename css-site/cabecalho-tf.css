@@ -9,7 +9,7 @@ body {
     margin: 1%;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
     /*background: #444444;*/
     z-index: 1000;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
