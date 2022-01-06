@@ -7,9 +7,9 @@ body{
 #home {
     background-image: url(../img-site/fundo-tf1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 100% 140%;
     width: 100vw;
-    height: 100vh;
+    height: 28vw;
 }
 
 #home h1{
@@ -35,7 +35,9 @@ body{
 }
 
 .trofeu {
-    width: 20%;
+    width: 15%;
+    position: relative;
+    left: 70vw;
 }
 
 .sobre-titulo {
