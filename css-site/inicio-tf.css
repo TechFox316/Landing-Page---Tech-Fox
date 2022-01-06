@@ -7,7 +7,7 @@ body{
 #home {
     background-image: url(../img-site/fundo-tf1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 140%;
+    background-size: 100% 135%;
     width: 100vw;
     height: 28vw;
 }
@@ -36,8 +36,6 @@ body{
 
 .trofeu {
     width: 15%;
-    position: relative;
-    left: 70vw;
 }
 
 .sobre-titulo {
@@ -55,4 +53,8 @@ body{
     line-height: 2vw;
     font-size: 1.7vw;
     padding: 0 10vw;
+}
+
+.texto-inicial {
+    margin-top: 5vw;
 }

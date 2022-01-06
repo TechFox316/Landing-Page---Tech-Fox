@@ -3,14 +3,14 @@ body {
     color: #ffffff;
     text-shadow: 0vw 0vw 0 black;
 }
-/*
+
 .homeLinha-dvidas {
     width: 25.5vw;
     height: 0.2em;
     background-color: white;
-    margin-top: -10vw;
+    margin-top: 0.5vw;
 }
-*/
+
 .perguntas {
     
     border: 0.2vw solid #ffffff;
