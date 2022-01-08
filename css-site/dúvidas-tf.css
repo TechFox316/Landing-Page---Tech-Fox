@@ -16,7 +16,7 @@ body {
     border: 0.2vw solid #ffffff;
     margin: 2vw 2.5vw;
     padding: 1vw;
-
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
 }
 
 .perguntas:hover {
@@ -30,6 +30,7 @@ body {
     font-size: 3vw;
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2 {
@@ -57,6 +58,7 @@ h2.on {
     margin: 3vw 0 2vw;
     text-decoration: none;
     color: #ffffff;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
 }
 
 .suporte a {
