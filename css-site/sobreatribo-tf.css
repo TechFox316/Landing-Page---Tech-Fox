@@ -23,9 +23,11 @@
 .texto h2 {
     padding: 0vw 0vw 1.5vw ;
     font-size: 1.8vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .texto p {
     padding: 2vw 0vw 0vw;
     font-size: 1.5vw;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
 }

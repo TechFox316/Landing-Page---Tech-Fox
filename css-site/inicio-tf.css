@@ -44,6 +44,8 @@ body{
     font-size: 3vw;
     text-align: center;
     margin-bottom: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .sobre-texto p {
@@ -53,6 +55,7 @@ body{
     line-height: 2vw;
     font-size: 1.7vw;
     padding: 0 10vw;
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
 }
 
 .texto-inicial {

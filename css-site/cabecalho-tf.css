@@ -32,6 +32,7 @@ body {
     text-shadow: black 0.15vw 0.15vw 0.25vw;
     position: relative;
     right: 30vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .barraNavegar a {
