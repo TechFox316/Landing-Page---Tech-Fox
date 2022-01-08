@@ -48,6 +48,6 @@ mudaClasse(1, 1)
 
 setInterval(() => {
     troca(1);
-}, 15000);
+}, 5000);
 
 
