@@ -1,16 +1,16 @@
 .equipe{
-    margin: 5vw 10vw;
+    margin: 5vw 8vw;
     text-shadow: 0.1vw 0.1vw 0.1vw black;
 }
 
 .equipe img {
     display: inline-block;
-    float: left;
     background: #cccccc;
     border: 0.2vw solid #ffffff;
     border-radius: 25vw;
-    width: 15vw;
-    height: 15vw;
+    width: 18vw;
+    height: 18vw;
+    margin-top: 1.3vw;
 }
 
 .texto {
